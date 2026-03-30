@@ -35,7 +35,7 @@ jobs:
 
       - name: Run data scraper
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # GitHub 自动提供，无需手动设置
         run: python -m scraper.main
 

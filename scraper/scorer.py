@@ -1,6 +1,6 @@
 """
 LLM 评分管道
-每条信号调用 Claude Haiku 一次，完成：
+每条信号调用 Kimi (Moonshot AI) 一次，完成：
   1. 赛道分类
   2. 三维度质量评分（0-1分 × 3）
   3. 一句话中文摘要（≤80字）
@@ -14,8 +14,9 @@ import os
 import time
 import math
 from datetime import datetime, timezone
+from typing import Optional, List, Tuple
 
-import anthropic
+from openai import OpenAI
 
 TRACKS = [
     "AI助理", "AI Coding", "AI视频", "AI医疗", "AI金融",
@@ -55,12 +56,15 @@ quality 三个字段各0-1分（0.1为单位），评分标准：
 - strategic_value：对所在赛道格局的影响程度（1.0=赛道定义者，0.5=重要玩家，0.1=边缘项目）"""
 
 
-def score_signals(raw_signals: list[dict], api_key: str) -> list[dict]:
+def score_signals(raw_signals: List[dict], api_key: str) -> List[dict]:
     """
     对原始信号列表进行 LLM 评分
     返回带完整评分信息的信号列表
     """
-    client = anthropic.Anthropic(api_key=api_key)
+    client = OpenAI(
+        api_key=api_key,
+        base_url="https://api.moonshot.cn/v1"
+    )
     scored = []
 
     for i, signal in enumerate(raw_signals):
@@ -102,8 +106,8 @@ def score_signals(raw_signals: list[dict], api_key: str) -> list[dict]:
     return scored
 
 
-def _call_llm(client: anthropic.Anthropic, signal: dict) -> dict | None:
-    """调用 Claude Haiku 进行评分，带重试"""
+def _call_llm(client: OpenAI, signal: dict) -> Optional[dict]:
+    """调用 Kimi moonshot-v1-8k 进行评分，带重试"""
     prompt = SCORING_PROMPT.format(
         source=signal["source"],
         title=signal["title"][:300],
@@ -114,12 +118,12 @@ def _call_llm(client: anthropic.Anthropic, signal: dict) -> dict | None:
 
     for attempt in range(3):
         try:
-            message = client.messages.create(
-                model="claude-haiku-4-5-20251001",
+            response = client.chat.completions.create(
+                model="moonshot-v1-8k",
                 max_tokens=400,
                 messages=[{"role": "user", "content": prompt}]
             )
-            raw_text = message.content[0].text.strip()
+            raw_text = response.choices[0].message.content.strip()
 
             # 清理可能的 markdown 代码块
             if raw_text.startswith("```"):
@@ -133,17 +137,19 @@ def _call_llm(client: anthropic.Anthropic, signal: dict) -> dict | None:
         except json.JSONDecodeError as e:
             print(f"[Scorer] JSON 解析失败 (attempt {attempt+1}): {e}")
             time.sleep(1)
-        except anthropic.RateLimitError:
-            print("[Scorer] 速率限制，等待60秒...")
-            time.sleep(60)
         except Exception as e:
-            print(f"[Scorer] LLM 调用失败 (attempt {attempt+1}): {e}")
-            time.sleep(2)
+            err_str = str(e)
+            if "rate_limit" in err_str.lower() or "429" in err_str:
+                print("[Scorer] 速率限制，等待60秒...")
+                time.sleep(60)
+            else:
+                print(f"[Scorer] LLM 调用失败 (attempt {attempt+1}): {e}")
+                time.sleep(2)
 
     return None
 
 
-def _calculate_score(signal: dict, llm_result: dict) -> tuple[float, float]:
+def _calculate_score(signal: dict, llm_result: dict) -> Tuple[float, float]:
     """
     计算信号原始分和衰减后最终分
 
@@ -189,20 +195,16 @@ def _platform_score(signal: dict) -> float:
 
     if source == "github":
         stars = meta.get("stars", 0)
-        # log 归一化：10k star → 3分，1k → 2分，100 → 1分
         return min(3.0, math.log10(max(stars, 1)) * 1.0)
 
     elif source == "hackernews":
         hn_score = meta.get("hn_score", 0)
-        # 500+ → 3分，200 → 2分，100 → 1分
         return min(3.0, math.log10(max(hn_score, 1)) * 1.3)
 
     elif source == "techcrunch":
-        # TechCrunch 无热度指标，固定给 1.5（媒体背书）
         return 1.5
 
     elif source == "arxiv":
-        # ArXiv 论文，基础分 1.0
         return 1.0
 
     return 1.0
@@ -218,7 +220,6 @@ def _funding_bonus(signal: dict, llm_result: dict) -> float:
     if not amount:
         return 0.5  # 有融资事件但金额未知，给 0.5
 
-    # 亿元以上 → 2分，千万 → 1分
     if amount >= 10000:   # 万元单位，1亿=10000万
         return 2.0
     elif amount >= 1000:
@@ -227,7 +228,7 @@ def _funding_bonus(signal: dict, llm_result: dict) -> float:
         return 0.5
 
 
-def apply_cross_source_bonus(signals: list[dict]) -> list[dict]:
+def apply_cross_source_bonus(signals: list) -> list:
     """
     对同一实体在多个信源出现的情况给予加分
     在 main.py 中对全部信号处理完后调用
@@ -245,6 +246,6 @@ def apply_cross_source_bonus(signals: list[dict]) -> list[dict]:
         count = entity_count.get(name, 1)
         bonus = min((count - 1) * 0.5, 2.0)
         s["score_raw"] = round(s["score_raw"] + bonus, 1)
-        s["score_final"] = round(s["score_final"] + bonus * 0.8, 1)  # 衰减后加分打折
+        s["score_final"] = round(s["score_final"] + bonus * 0.8, 1)
 
     return signals

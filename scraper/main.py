@@ -27,9 +27,9 @@ DATA_DIR.mkdir(exist_ok=True)
 
 
 def main():
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    api_key = os.environ.get("KIMI_API_KEY")
     if not api_key:
-        print("错误：未找到 ANTHROPIC_API_KEY 环境变量")
+        print("错误：未找到 KIMI_API_KEY 环境变量")
         sys.exit(1)
 
     github_token = os.environ.get("GITHUB_TOKEN")  # 可选，提升速率限制

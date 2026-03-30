@@ -1,1 +1,495 @@
-{"generated_at": null, "total": 0, "tracks": []}
+{
+  "generated_at": "2026-03-30T05:32:21.926342+00:00",
+  "total": 11,
+  "tracks": [
+    {
+      "name": "AI基础设施",
+      "score": 9.3,
+      "project_count": 31,
+      "top_signals": [
+        {
+          "entity_name": "Cloudflare",
+          "source": "hackernews",
+          "source_url": "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/",
+          "summary_zh": "Cloudflare推出新功能，需读取React状态才允许ChatGPT输入",
+          "score_final": 4.5,
+          "signal_type": "product_launch",
+          "team_origin": "non-chinese"
+        },
+        {
+          "entity_name": "thereisnospoon",
+          "source": "github",
+          "source_url": "https://github.com/dreddnafious/thereisnospoon",
+          "summary_zh": "基于第一性原理构建的机器学习入门教程，适合工程师深入理解ML系统。",
+          "score_final": 3.8,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "CERN",
+          "source": "hackernews",
+          "source_url": "https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering",
+          "summary_zh": "CERN在FPGA上使用超紧凑AI模型进行实时LHC数据过滤",
+          "score_final": 3.1,
+          "signal_type": "research",
+          "team_origin": "non-chinese"
+        },
+        {
+          "entity_name": "Wikipedia",
+          "source": "hackernews",
+          "source_url": "https://www.theguardian.com/technology/2026/mar/27/wikipedia-bans-ai",
+          "summary_zh": "维基百科禁止在其在线百科全书中使用AI生成的内容",
+          "score_final": 3.0,
+          "signal_type": "regulatory",
+          "team_origin": "non-chinese"
+        },
+        {
+          "entity_name": "Go hard on agents",
+          "source": "hackernews",
+          "source_url": "https://jai.scs.stanford.edu/",
+          "summary_zh": "推出不依赖文件系统的AI代理产品，提升系统效率",
+          "score_final": 2.6,
+          "signal_type": "product_launch",
+          "team_origin": "unknown"
+        }
+      ],
+      "trend": "stable",
+      "signal_type_dist": {
+        "product_launch": 13,
+        "research": 8,
+        "regulatory": 4,
+        "company_news": 4,
+        "market_trend": 1,
+        "funding": 1
+      }
+    },
+    {
+      "name": "AI Coding",
+      "score": 8.8,
+      "project_count": 9,
+      "top_signals": [
+        {
+          "entity_name": "Claude Code",
+          "source": "hackernews",
+          "source_url": "https://github.com/anthropics/claude-code/issues/40710",
+          "summary_zh": "Claude Code定时重置项目仓库，可能影响代码管理",
+          "score_final": 4.7,
+          "signal_type": "product_launch",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "Coding Agents",
+          "source": "hackernews",
+          "source_url": "https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/",
+          "summary_zh": "探讨编程代理如何使自由软件再次变得重要",
+          "score_final": 4.3,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "HitCC",
+          "source": "github",
+          "source_url": "https://github.com/hitmux/HitCC",
+          "summary_zh": "HitCC项目提供了Claude Code CLI的完整逆向工程文档。",
+          "score_final": 3.5,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "Knuth's Claude Cycles",
+          "source": "hackernews",
+          "source_url": "https://twitter.com/BoWang87/status/2037648937453232504",
+          "summary_zh": "人类与AI合作解决Knuth提出的Claude Cycles问题",
+          "score_final": 3.0,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "JSONata",
+          "source": "hackernews",
+          "source_url": "https://www.reco.ai/blog/we-rewrote-jsonata-with-ai",
+          "summary_zh": "使用AI重写JSONata，每年节省50万美元",
+          "score_final": 2.2,
+          "signal_type": "product_launch",
+          "team_origin": "unknown"
+        }
+      ],
+      "trend": "stable",
+      "signal_type_dist": {
+        "product_launch": 5,
+        "research": 4
+      }
+    },
+    {
+      "name": "AI助理",
+      "score": 8.8,
+      "project_count": 8,
+      "top_signals": [
+        {
+          "entity_name": "AI overly affirms",
+          "source": "hackernews",
+          "source_url": "https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research",
+          "summary_zh": "AI在提供个人建议时过度肯定用户，可能影响决策",
+          "score_final": 3.0,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "Anthropic",
+          "source": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
+          "summary_zh": "Anthropic的AI助理Claude付费用户激增，市场潜力巨大",
+          "score_final": 2.7,
+          "signal_type": "market_trend",
+          "team_origin": "non-chinese"
+        },
+        {
+          "entity_name": "recursive-improve",
+          "source": "github",
+          "source_url": "https://github.com/kayba-ai/recursive-improve",
+          "summary_zh": "kayba-ai/recursive-improve项目旨在使AI代理能够自我迭代改进。",
+          "score_final": 2.5,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "claude-better",
+          "source": "github",
+          "source_url": "https://github.com/krzyzanowskim/claude-better",
+          "summary_zh": "krzyzanowskim/claude-better，一个改进版的AI助理工具",
+          "score_final": 2.4,
+          "signal_type": "product_launch",
+          "team_origin": "non-chinese"
+        },
+        {
+          "entity_name": "OpenAI",
+          "source": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/",
+          "summary_zh": "OpenAI放弃ChatGPT的色情模式，为AI助理赛道的一次调整。",
+          "score_final": 2.1,
+          "signal_type": "company_news",
+          "team_origin": "non-chinese"
+        }
+      ],
+      "trend": "up",
+      "signal_type_dist": {
+        "research": 4,
+        "market_trend": 1,
+        "product_launch": 2,
+        "company_news": 1
+      }
+    },
+    {
+      "name": "AI安全",
+      "score": 8.7,
+      "project_count": 8,
+      "top_signals": [
+        {
+          "entity_name": "Miasma",
+          "source": "hackernews",
+          "source_url": "https://github.com/austin-weeks/miasma",
+          "summary_zh": "Miasma是一个工具，用于捕获AI网络爬虫，使其陷入无尽的陷阱。",
+          "score_final": 4.5,
+          "signal_type": "product_launch",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "Police AI Facial Recognition",
+          "source": "hackernews",
+          "source_url": "https://www.cnn.com/2026/03/29/us/angela-lipps-ai-facial-recognition",
+          "summary_zh": "AI面部识别技术误捕，引发对AI安全和监管的关注",
+          "score_final": 4.1,
+          "signal_type": "regulatory",
+          "team_origin": "non-chinese"
+        },
+        {
+          "entity_name": "LiteLLM",
+          "source": "hackernews",
+          "source_url": "https://futuresearch.ai/blog/litellm-attack-transcript/",
+          "summary_zh": "LiteLLM恶意软件攻击的分钟级响应分析，关注AI安全领域",
+          "score_final": 2.6,
+          "signal_type": "company_news",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "AI",
+          "source": "hackernews",
+          "source_url": "https://www.theguardian.com/news/2026/mar/26/ai-got-the-blame-for-the-iran-school-bombing-the-truth-is-far-more-worrying",
+          "summary_zh": "AI被错误归咎于伊朗学校爆炸事件，引发对AI安全和监管的担忧",
+          "score_final": 2.4,
+          "signal_type": "regulatory",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "Stanford study",
+          "source": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
+          "summary_zh": "斯坦福研究揭示AI聊天机器人提供个人建议的风险",
+          "score_final": 2.1,
+          "signal_type": "research",
+          "team_origin": "non-chinese"
+        }
+      ],
+      "trend": "stable",
+      "signal_type_dist": {
+        "product_launch": 1,
+        "regulatory": 3,
+        "company_news": 2,
+        "research": 1,
+        "funding": 1
+      }
+    },
+    {
+      "name": "AI硬件",
+      "score": 8.7,
+      "project_count": 5,
+      "top_signals": [
+        {
+          "entity_name": "AI数学优化",
+          "source": "hackernews",
+          "source_url": "https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more",
+          "summary_zh": "探讨AI发展是否需要更好的数学而非更多RAM",
+          "score_final": 4.4,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "复古科技产品",
+          "source": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/03/28/lets-take-a-look-at-the-retro-tech-making-a-comeback/",
+          "summary_zh": "复古科技产品如录音机、即时相机和座机正在复兴。",
+          "score_final": 1.7,
+          "signal_type": "market_trend",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "Zig INferenCe Engine",
+          "source": "github",
+          "source_url": "https://github.com/zolotukhin/zinc",
+          "summary_zh": "Zig INferenCe Engine，为AMD RDNA3/RDNA4 GPU提供LLM推理的Zig语言引擎。",
+          "score_final": 1.6,
+          "signal_type": "product_launch",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "claude-watch",
+          "source": "github",
+          "source_url": "https://github.com/shobhit99/claude-watch",
+          "summary_zh": "通过Apple Watch控制Claude代码，创新的智能穿戴设备应用",
+          "score_final": 1.6,
+          "signal_type": "product_launch",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "SK hynix",
+          "source": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/03/27/memory-chip-giant-sk-hynix-could-help-end-rammageddon-with-blockbuster-us-ipo/",
+          "summary_zh": "SK海力士可能通过美国上市筹集资金，增加产能，缓解内存短缺。",
+          "score_final": 1.5,
+          "signal_type": "company_news",
+          "team_origin": "non-chinese"
+        }
+      ],
+      "trend": "up",
+      "signal_type_dist": {
+        "research": 1,
+        "market_trend": 1,
+        "product_launch": 2,
+        "company_news": 1
+      }
+    },
+    {
+      "name": "AI视频",
+      "score": 8.6,
+      "project_count": 5,
+      "top_signals": [
+        {
+          "entity_name": "Sora",
+          "source": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
+          "summary_zh": "OpenAI关闭了其AI视频生成工具Sora，引发数据抓取疑虑。",
+          "score_final": 3.4,
+          "signal_type": "company_news",
+          "team_origin": "non-chinese"
+        },
+        {
+          "entity_name": "Project Hail Mary",
+          "source": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/03/29/project-hail-mary-becomes-amazon-mgms-biggest-box-office-hit/",
+          "summary_zh": "亚马逊MGM的《Project Hail Mary》成为票房大赢家",
+          "score_final": 3.3,
+          "signal_type": "company_news",
+          "team_origin": "non-chinese"
+        },
+        {
+          "entity_name": "Sora",
+          "source": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
+          "summary_zh": "Sora的关闭可能是AI视频领域的一个警钟",
+          "score_final": 3.2,
+          "signal_type": "company_news",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "forge-film",
+          "source": "github",
+          "source_url": "https://github.com/F-R-L/forge-film",
+          "summary_zh": "基于DAG和CPM算法的并行AI影视生成引擎，提升制作效率",
+          "score_final": 1.6,
+          "signal_type": "product_launch",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "Dreamina Seedance 2.0",
+          "source": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
+          "summary_zh": "字节跳动推出AI视频生成模型Dreamina Seedance 2.0，集成于CapCut应用",
+          "score_final": 1.5,
+          "signal_type": "product_launch",
+          "team_origin": "chinese"
+        }
+      ],
+      "trend": "up",
+      "signal_type_dist": {
+        "company_news": 3,
+        "product_launch": 2
+      }
+    },
+    {
+      "name": "基础模型",
+      "score": 8.4,
+      "project_count": 3,
+      "top_signals": [
+        {
+          "entity_name": "The first 40 months of the AI era",
+          "source": "hackernews",
+          "source_url": "https://lzon.ca/posts/other/thoughts-ai-era/",
+          "summary_zh": "分析AI时代前40个月的发展，对理解AI赛道有战略价值",
+          "score_final": 3.2,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "GPT5.4 Pro",
+          "source": "hackernews",
+          "source_url": "https://epoch.ai/frontiermath/open-problems/ramsey-hypergraphs",
+          "summary_zh": "GPT5.4 Pro解决了一个前沿数学开放问题，显示了AI在解决复杂问题上的潜力。",
+          "score_final": 1.9,
+          "signal_type": "research",
+          "team_origin": "non-chinese"
+        },
+        {
+          "entity_name": "RAG系统",
+          "source": "hackernews",
+          "source_url": "https://en.andros.dev/blog/aa31d744/from-zero-to-a-rag-system-successes-and-failures/",
+          "summary_zh": "分析从零到构建RAG系统的过程，探讨成功与失败",
+          "score_final": 1.8,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        }
+      ],
+      "trend": "down",
+      "signal_type_dist": {
+        "research": 3
+      }
+    },
+    {
+      "name": "AI金融",
+      "score": 8.4,
+      "project_count": 2,
+      "top_signals": [
+        {
+          "entity_name": "dexter-jp",
+          "source": "github",
+          "source_url": "https://github.com/edinetdb/dexter-jp",
+          "summary_zh": "日本上市公司深度金融研究的自律型AI代理，基于EDINET DB和J-Quants。",
+          "score_final": 1.9,
+          "signal_type": "product_launch",
+          "team_origin": "non-chinese"
+        },
+        {
+          "entity_name": "Gemini",
+          "source": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/",
+          "summary_zh": "谷歌推出工具，帮助用户将聊天和个人信息从其他聊天机器人转移到Gemini。",
+          "score_final": 1.5,
+          "signal_type": "product_launch",
+          "team_origin": "non-chinese"
+        }
+      ],
+      "trend": "down",
+      "signal_type_dist": {
+        "product_launch": 2
+      }
+    },
+    {
+      "name": "AI营销",
+      "score": 8.3,
+      "project_count": 2,
+      "top_signals": [
+        {
+          "entity_name": "wewrite",
+          "source": "github",
+          "source_url": "https://github.com/oaker-io/wewrite",
+          "summary_zh": "公众号文章全流程AI技能，提升内容创作效率和SEO",
+          "score_final": 2.2,
+          "signal_type": "product_launch",
+          "team_origin": "chinese"
+        },
+        {
+          "entity_name": "advertising-skills",
+          "source": "github",
+          "source_url": "https://github.com/realkimbarrett/advertising-skills",
+          "summary_zh": "为AI代理提供广告技能，包括直接响应、付费广告、漏斗和文案系统。",
+          "score_final": 1.9,
+          "signal_type": "product_launch",
+          "team_origin": "unknown"
+        }
+      ],
+      "trend": "down",
+      "signal_type_dist": {
+        "product_launch": 2
+      }
+    },
+    {
+      "name": "具身智能",
+      "score": 8.3,
+      "project_count": 1,
+      "top_signals": [
+        {
+          "entity_name": "Physical Intelligence",
+          "source": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/03/27/physical-intelligence-is-reportedly-in-talks-to-raise-1-billion-again/",
+          "summary_zh": "Physical Intelligence拟融资10亿美元，估值翻倍至56亿美元",
+          "score_final": 2.0,
+          "signal_type": "funding",
+          "team_origin": "unknown"
+        }
+      ],
+      "trend": "up",
+      "signal_type_dist": {
+        "funding": 1
+      }
+    },
+    {
+      "name": "AI工业",
+      "score": 8.3,
+      "project_count": 1,
+      "top_signals": [
+        {
+          "entity_name": "Graph-CAD",
+          "source": "github",
+          "source_url": "https://github.com/EESJGong/Graph-CAD",
+          "summary_zh": "学习层次化和几何感知的图表示，用于文本到CAD模型的转换",
+          "score_final": 1.7,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        }
+      ],
+      "trend": "down",
+      "signal_type_dist": {
+        "research": 1
+      }
+    }
+  ]
+}
