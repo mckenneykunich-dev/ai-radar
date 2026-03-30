@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-30T05:32:21.926342+00:00",
-  "total": 11,
+  "generated_at": "2026-03-30T07:22:06.396425+00:00",
+  "total": 12,
   "tracks": [
     {
       "name": "AI基础设施",
-      "score": 9.3,
-      "project_count": 31,
+      "score": 9.4,
+      "project_count": 35,
       "top_signals": [
         {
           "entity_name": "Cloudflare",
@@ -20,7 +20,7 @@
           "entity_name": "thereisnospoon",
           "source": "github",
           "source_url": "https://github.com/dreddnafious/thereisnospoon",
-          "summary_zh": "基于第一性原理构建的机器学习入门教程，适合工程师深入理解ML系统。",
+          "summary_zh": "基于第一性原理构建的机器学习入门教程，适合工程师深入理解ML系统",
           "score_final": 3.8,
           "signal_type": "research",
           "team_origin": "unknown"
@@ -56,7 +56,7 @@
       "trend": "stable",
       "signal_type_dist": {
         "product_launch": 13,
-        "research": 8,
+        "research": 12,
         "regulatory": 4,
         "company_news": 4,
         "market_trend": 1,
@@ -65,23 +65,32 @@
     },
     {
       "name": "AI Coding",
-      "score": 8.8,
-      "project_count": 9,
+      "score": 9.0,
+      "project_count": 12,
       "top_signals": [
         {
           "entity_name": "Claude Code",
           "source": "hackernews",
           "source_url": "https://github.com/anthropics/claude-code/issues/40710",
           "summary_zh": "Claude Code定时重置项目仓库，可能影响代码管理",
-          "score_final": 4.7,
+          "score_final": 4.9,
           "signal_type": "product_launch",
           "team_origin": "unknown"
+        },
+        {
+          "entity_name": "Copilot",
+          "source": "hackernews",
+          "source_url": "https://notes.zachmanson.com/copilot-edited-an-ad-into-my-pr/",
+          "summary_zh": "Copilot将广告编辑进PR，显示AI代码辅助工具的新应用",
+          "score_final": 4.5,
+          "signal_type": "product_launch",
+          "team_origin": "non-chinese"
         },
         {
           "entity_name": "Coding Agents",
           "source": "hackernews",
           "source_url": "https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/",
-          "summary_zh": "探讨编程代理如何使自由软件再次变得重要",
+          "summary_zh": "编码代理可能让自由软件再次变得重要",
           "score_final": 4.3,
           "signal_type": "research",
           "team_origin": "unknown"
@@ -90,165 +99,37 @@
           "entity_name": "HitCC",
           "source": "github",
           "source_url": "https://github.com/hitmux/HitCC",
-          "summary_zh": "HitCC项目提供了Claude Code CLI的完整逆向工程文档。",
-          "score_final": 3.5,
+          "summary_zh": "HitCC是Claude Code CLI Node.js版本的完整逆向工程文档。",
+          "score_final": 3.6,
           "signal_type": "research",
           "team_origin": "unknown"
         },
         {
-          "entity_name": "Knuth's Claude Cycles",
+          "entity_name": "Claude Code",
           "source": "hackernews",
-          "source_url": "https://twitter.com/BoWang87/status/2037648937453232504",
-          "summary_zh": "人类与AI合作解决Knuth提出的Claude Cycles问题",
-          "score_final": 3.0,
-          "signal_type": "research",
-          "team_origin": "unknown"
-        },
-        {
-          "entity_name": "JSONata",
-          "source": "hackernews",
-          "source_url": "https://www.reco.ai/blog/we-rewrote-jsonata-with-ai",
-          "summary_zh": "使用AI重写JSONata，每年节省50万美元",
-          "score_final": 2.2,
+          "source_url": "https://lab.puga.com.br/cog/",
+          "summary_zh": "Claude Code是一个用于认知架构的纯文本编码框架。",
+          "score_final": 2.3,
           "signal_type": "product_launch",
           "team_origin": "unknown"
-        }
-      ],
-      "trend": "stable",
-      "signal_type_dist": {
-        "product_launch": 5,
-        "research": 4
-      }
-    },
-    {
-      "name": "AI助理",
-      "score": 8.8,
-      "project_count": 8,
-      "top_signals": [
-        {
-          "entity_name": "AI overly affirms",
-          "source": "hackernews",
-          "source_url": "https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research",
-          "summary_zh": "AI在提供个人建议时过度肯定用户，可能影响决策",
-          "score_final": 3.0,
-          "signal_type": "research",
-          "team_origin": "unknown"
-        },
-        {
-          "entity_name": "Anthropic",
-          "source": "techcrunch",
-          "source_url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
-          "summary_zh": "Anthropic的AI助理Claude付费用户激增，市场潜力巨大",
-          "score_final": 2.7,
-          "signal_type": "market_trend",
-          "team_origin": "non-chinese"
-        },
-        {
-          "entity_name": "recursive-improve",
-          "source": "github",
-          "source_url": "https://github.com/kayba-ai/recursive-improve",
-          "summary_zh": "kayba-ai/recursive-improve项目旨在使AI代理能够自我迭代改进。",
-          "score_final": 2.5,
-          "signal_type": "research",
-          "team_origin": "unknown"
-        },
-        {
-          "entity_name": "claude-better",
-          "source": "github",
-          "source_url": "https://github.com/krzyzanowskim/claude-better",
-          "summary_zh": "krzyzanowskim/claude-better，一个改进版的AI助理工具",
-          "score_final": 2.4,
-          "signal_type": "product_launch",
-          "team_origin": "non-chinese"
-        },
-        {
-          "entity_name": "OpenAI",
-          "source": "techcrunch",
-          "source_url": "https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/",
-          "summary_zh": "OpenAI放弃ChatGPT的色情模式，为AI助理赛道的一次调整。",
-          "score_final": 2.1,
-          "signal_type": "company_news",
-          "team_origin": "non-chinese"
         }
       ],
       "trend": "up",
       "signal_type_dist": {
-        "research": 4,
-        "market_trend": 1,
-        "product_launch": 2,
-        "company_news": 1
-      }
-    },
-    {
-      "name": "AI安全",
-      "score": 8.7,
-      "project_count": 8,
-      "top_signals": [
-        {
-          "entity_name": "Miasma",
-          "source": "hackernews",
-          "source_url": "https://github.com/austin-weeks/miasma",
-          "summary_zh": "Miasma是一个工具，用于捕获AI网络爬虫，使其陷入无尽的陷阱。",
-          "score_final": 4.5,
-          "signal_type": "product_launch",
-          "team_origin": "unknown"
-        },
-        {
-          "entity_name": "Police AI Facial Recognition",
-          "source": "hackernews",
-          "source_url": "https://www.cnn.com/2026/03/29/us/angela-lipps-ai-facial-recognition",
-          "summary_zh": "AI面部识别技术误捕，引发对AI安全和监管的关注",
-          "score_final": 4.1,
-          "signal_type": "regulatory",
-          "team_origin": "non-chinese"
-        },
-        {
-          "entity_name": "LiteLLM",
-          "source": "hackernews",
-          "source_url": "https://futuresearch.ai/blog/litellm-attack-transcript/",
-          "summary_zh": "LiteLLM恶意软件攻击的分钟级响应分析，关注AI安全领域",
-          "score_final": 2.6,
-          "signal_type": "company_news",
-          "team_origin": "unknown"
-        },
-        {
-          "entity_name": "AI",
-          "source": "hackernews",
-          "source_url": "https://www.theguardian.com/news/2026/mar/26/ai-got-the-blame-for-the-iran-school-bombing-the-truth-is-far-more-worrying",
-          "summary_zh": "AI被错误归咎于伊朗学校爆炸事件，引发对AI安全和监管的担忧",
-          "score_final": 2.4,
-          "signal_type": "regulatory",
-          "team_origin": "unknown"
-        },
-        {
-          "entity_name": "Stanford study",
-          "source": "techcrunch",
-          "source_url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
-          "summary_zh": "斯坦福研究揭示AI聊天机器人提供个人建议的风险",
-          "score_final": 2.1,
-          "signal_type": "research",
-          "team_origin": "non-chinese"
-        }
-      ],
-      "trend": "stable",
-      "signal_type_dist": {
-        "product_launch": 1,
-        "regulatory": 3,
-        "company_news": 2,
-        "research": 1,
-        "funding": 1
+        "product_launch": 5,
+        "research": 7
       }
     },
     {
       "name": "AI硬件",
-      "score": 8.7,
-      "project_count": 5,
+      "score": 8.9,
+      "project_count": 8,
       "top_signals": [
         {
-          "entity_name": "AI数学优化",
+          "entity_name": "AI内存优化",
           "source": "hackernews",
           "source_url": "https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more",
-          "summary_zh": "探讨AI发展是否需要更好的数学而非更多RAM",
+          "summary_zh": "探讨AI是否需要更好的数学而非更多RAM，可能影响硬件设计",
           "score_final": 4.4,
           "signal_type": "research",
           "team_origin": "unknown"
@@ -257,7 +138,7 @@
           "entity_name": "复古科技产品",
           "source": "techcrunch",
           "source_url": "https://techcrunch.com/2026/03/28/lets-take-a-look-at-the-retro-tech-making-a-comeback/",
-          "summary_zh": "复古科技产品如录音机、即时相机和座机正在复兴。",
+          "summary_zh": "复古科技产品如音箱、即时相机和座机电话正在回归市场。",
           "score_final": 1.7,
           "signal_type": "market_trend",
           "team_origin": "unknown"
@@ -292,16 +173,75 @@
       ],
       "trend": "up",
       "signal_type_dist": {
-        "research": 1,
+        "research": 4,
         "market_trend": 1,
         "product_launch": 2,
         "company_news": 1
       }
     },
     {
+      "name": "AI助理",
+      "score": 8.9,
+      "project_count": 9,
+      "top_signals": [
+        {
+          "entity_name": "Knuth's Claude Cycles",
+          "source": "hackernews",
+          "source_url": "https://twitter.com/BoWang87/status/2037648937453232504",
+          "summary_zh": "人类与AI合作解决Knuth提出的Claude Cycles问题",
+          "score_final": 3.0,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "AI overly affirms",
+          "source": "hackernews",
+          "source_url": "https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research",
+          "summary_zh": "AI在提供个人建议时过度肯定用户，可能影响决策",
+          "score_final": 2.9,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "recursive-improve",
+          "source": "github",
+          "source_url": "https://github.com/kayba-ai/recursive-improve",
+          "summary_zh": "kayba-ai/recursive-improve项目旨在使AI代理能够自我迭代改进。",
+          "score_final": 2.5,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "Claude",
+          "source": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
+          "summary_zh": "Anthropic的AI助理Claude付费用户激增，市场潜力大",
+          "score_final": 2.3,
+          "signal_type": "market_trend",
+          "team_origin": "non-chinese"
+        },
+        {
+          "entity_name": "OpenAI",
+          "source": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/",
+          "summary_zh": "OpenAI放弃ChatGPT的色情模式，为AI助理赛道的调整",
+          "score_final": 2.1,
+          "signal_type": "company_news",
+          "team_origin": "non-chinese"
+        }
+      ],
+      "trend": "up",
+      "signal_type_dist": {
+        "research": 6,
+        "market_trend": 1,
+        "company_news": 1,
+        "product_launch": 1
+      }
+    },
+    {
       "name": "AI视频",
-      "score": 8.6,
-      "project_count": 5,
+      "score": 8.8,
+      "project_count": 7,
       "top_signals": [
         {
           "entity_name": "Sora",
@@ -340,31 +280,92 @@
           "team_origin": "unknown"
         },
         {
-          "entity_name": "Dreamina Seedance 2.0",
-          "source": "techcrunch",
-          "source_url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
-          "summary_zh": "字节跳动推出AI视频生成模型Dreamina Seedance 2.0，集成于CapCut应用",
-          "score_final": 1.5,
-          "signal_type": "product_launch",
-          "team_origin": "chinese"
+          "entity_name": "PerceptionComp",
+          "source": "arxiv",
+          "source_url": "http://arxiv.org/abs/2603.26653v1",
+          "summary_zh": "PerceptionComp是一个用于复杂感知中心视频推理的手动标注基准，要求跨时间视觉证据和组合约束。",
+          "score_final": 1.6,
+          "signal_type": "research",
+          "team_origin": "unknown"
         }
       ],
       "trend": "up",
       "signal_type_dist": {
         "company_news": 3,
-        "product_launch": 2
+        "product_launch": 2,
+        "research": 2
+      }
+    },
+    {
+      "name": "AI安全",
+      "score": 8.7,
+      "project_count": 8,
+      "top_signals": [
+        {
+          "entity_name": "Miasma",
+          "source": "hackernews",
+          "source_url": "https://github.com/austin-weeks/miasma",
+          "summary_zh": "Miasma是一个工具，用于捕获AI网络爬虫，使其陷入无尽的陷阱。",
+          "score_final": 4.6,
+          "signal_type": "product_launch",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "AI面部识别",
+          "source": "hackernews",
+          "source_url": "https://www.cnn.com/2026/03/29/us/angela-lipps-ai-facial-recognition",
+          "summary_zh": "AI面部识别技术误捕，引发对AI安全和监管的关注",
+          "score_final": 4.1,
+          "signal_type": "regulatory",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "LiteLLM",
+          "source": "hackernews",
+          "source_url": "https://futuresearch.ai/blog/litellm-attack-transcript/",
+          "summary_zh": "LiteLLM恶意软件攻击的分钟级响应分析",
+          "score_final": 2.6,
+          "signal_type": "company_news",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "AI",
+          "source": "hackernews",
+          "source_url": "https://www.theguardian.com/news/2026/mar/26/ai-got-the-blame-for-the-iran-school-bombing-the-truth-is-far-more-worrying",
+          "summary_zh": "AI被错误归咎于伊朗学校爆炸，真相更令人担忧",
+          "score_final": 2.4,
+          "signal_type": "regulatory",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "Stanford study",
+          "source": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
+          "summary_zh": "斯坦福研究揭示AI聊天机器人提供个人建议的风险",
+          "score_final": 2.1,
+          "signal_type": "research",
+          "team_origin": "non-chinese"
+        }
+      ],
+      "trend": "stable",
+      "signal_type_dist": {
+        "product_launch": 1,
+        "regulatory": 3,
+        "company_news": 2,
+        "research": 1,
+        "funding": 1
       }
     },
     {
       "name": "基础模型",
-      "score": 8.4,
-      "project_count": 3,
+      "score": 8.7,
+      "project_count": 8,
       "top_signals": [
         {
           "entity_name": "The first 40 months of the AI era",
           "source": "hackernews",
           "source_url": "https://lzon.ca/posts/other/thoughts-ai-era/",
-          "summary_zh": "分析AI时代前40个月的发展，对理解AI赛道有战略价值",
+          "summary_zh": "分析AI时代前40个月的发展，对理解AI趋势有价值",
           "score_final": 3.2,
           "signal_type": "research",
           "team_origin": "unknown"
@@ -383,14 +384,32 @@
           "source": "hackernews",
           "source_url": "https://en.andros.dev/blog/aa31d744/from-zero-to-a-rag-system-successes-and-failures/",
           "summary_zh": "分析从零到构建RAG系统的过程，探讨成功与失败",
-          "score_final": 1.8,
+          "score_final": 1.7,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "Hybrid Sequence Models",
+          "source": "arxiv",
+          "source_url": "http://arxiv.org/abs/2603.26556v1",
+          "summary_zh": "研究通过蒸馏将预训练Transformer转换为更高效的混合模型以降低推理成本",
+          "score_final": 1.4,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "Language Models",
+          "source": "arxiv",
+          "source_url": "http://arxiv.org/abs/2603.26539v1",
+          "summary_zh": "分析模型开放性对科学推断的影响，探讨封闭模型的局限性。",
+          "score_final": 1.4,
           "signal_type": "research",
           "team_origin": "unknown"
         }
       ],
-      "trend": "down",
+      "trend": "up",
       "signal_type_dist": {
-        "research": 3
+        "research": 8
       }
     },
     {
@@ -402,7 +421,7 @@
           "entity_name": "dexter-jp",
           "source": "github",
           "source_url": "https://github.com/edinetdb/dexter-jp",
-          "summary_zh": "日本上市公司深度金融研究的自律型AI代理，基于EDINET DB和J-Quants。",
+          "summary_zh": "日本上市公司深度金融研究AI代理，基于EDINET DB和J-Quants",
           "score_final": 1.9,
           "signal_type": "product_launch",
           "team_origin": "non-chinese"
@@ -420,6 +439,91 @@
       "trend": "down",
       "signal_type_dist": {
         "product_launch": 2
+      }
+    },
+    {
+      "name": "AI医疗",
+      "score": 8.4,
+      "project_count": 4,
+      "top_signals": [
+        {
+          "entity_name": "Foundation Model for Cardiac Time Series",
+          "source": "arxiv",
+          "source_url": "http://arxiv.org/abs/2603.26475v1",
+          "summary_zh": "提出一种新的基于掩码潜在注意力的心脏时间序列基础模型，用于心血管诊断。",
+          "score_final": 1.6,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "Biomedical Time-Series Data Annotation",
+          "source": "arxiv",
+          "source_url": "http://arxiv.org/abs/2603.26592v1",
+          "summary_zh": "研究比较了生物医学时间序列数据标注的三种样本选择方法。",
+          "score_final": 1.4,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "KMM-CP",
+          "source": "arxiv",
+          "source_url": "http://arxiv.org/abs/2603.26415v1",
+          "summary_zh": "KMM-CP通过选择性核均值匹配实现协变量偏移下的实用化置信预测",
+          "score_final": 1.4,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "Generative Modeling in Protein Design",
+          "source": "arxiv",
+          "source_url": "http://arxiv.org/abs/2603.26378v1",
+          "summary_zh": "研究蛋白质设计中的生成建模，推动序列设计和生物分子建模。",
+          "score_final": 1.4,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        }
+      ],
+      "trend": "up",
+      "signal_type_dist": {
+        "research": 4
+      }
+    },
+    {
+      "name": "AI工业",
+      "score": 8.4,
+      "project_count": 3,
+      "top_signals": [
+        {
+          "entity_name": "Graph-CAD",
+          "source": "github",
+          "source_url": "https://github.com/EESJGong/Graph-CAD",
+          "summary_zh": "学习层次化和几何感知的图表示，用于文本到CAD模型的转换。",
+          "score_final": 1.4,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "Buffer Storage, Retrieval, and Reshuffling Problem (BSRRP)",
+          "source": "arxiv",
+          "source_url": "http://arxiv.org/abs/2603.26542v1",
+          "summary_zh": "研究自动化缓冲区存储、检索和重新洗牌问题，提高生产系统效率。",
+          "score_final": 1.4,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "CADSmith",
+          "source": "arxiv",
+          "source_url": "http://arxiv.org/abs/2603.26512v1",
+          "summary_zh": "CADSmith是一个多代理CAD生成系统，能从自然语言生成CadQuery代码并进行几何验证。",
+          "score_final": 1.4,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        }
+      ],
+      "trend": "up",
+      "signal_type_dist": {
+        "research": 3
       }
     },
     {
@@ -469,26 +573,6 @@
       "trend": "up",
       "signal_type_dist": {
         "funding": 1
-      }
-    },
-    {
-      "name": "AI工业",
-      "score": 8.3,
-      "project_count": 1,
-      "top_signals": [
-        {
-          "entity_name": "Graph-CAD",
-          "source": "github",
-          "source_url": "https://github.com/EESJGong/Graph-CAD",
-          "summary_zh": "学习层次化和几何感知的图表示，用于文本到CAD模型的转换",
-          "score_final": 1.7,
-          "signal_type": "research",
-          "team_origin": "unknown"
-        }
-      ],
-      "trend": "down",
-      "signal_type_dist": {
-        "research": 1
       }
     }
   ]
