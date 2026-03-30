@@ -1,0 +1,49 @@
+name: Weekly Data Update
+
+on:
+  schedule:
+    # 每周一 UTC 01:00（北京时间周一 09:00）
+    - cron: '0 1 * * 1'
+  # 允许手动触发（用于测试或临时更新）
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # 需要写权限才能 commit 回 data/ 文件
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run data scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # GitHub 自动提供，无需手动设置
+        run: python -m scraper.main
+
+      - name: Commit updated data files
+        run: |
+          git config user.name "AI Radar Bot"
+          git config user.email "bot@ai-radar.local"
+          git add data/signals.json data/tracks.json
+          # 只在有变更时才 commit（避免空 commit）
+          git diff --staged --quiet || git commit -m "data: weekly update $(date -u +%Y-%m-%d)"
+          git push
