@@ -420,6 +420,28 @@
     },
     {
       "source": "hackernews",
+      "source_url": "https://github.com/austin-weeks/miasma",
+      "published_at": "2026-03-29T10:10:12+00:00",
+      "entity_name": "Miasma",
+      "track": "AI安全",
+      "signal_type": "product_launch",
+      "summary_zh": "Miasma是一个工具，用于捕获AI网络爬虫，使其陷入无尽的陷阱。",
+      "team_origin": "unknown",
+      "score_raw": 4.6,
+      "score_final": 4.6,
+      "quality": {
+        "novelty": 0.6,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "hn_score": 311,
+        "comments": 223,
+        "hn_id": 47561819
+      }
+    },
+    {
+      "source": "hackernews",
       "source_url": "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/",
       "published_at": "2026-03-29T20:21:05+00:00",
       "entity_name": "Cloudflare",
@@ -488,7 +510,7 @@
       "source": "hackernews",
       "source_url": "https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more",
       "published_at": "2026-03-29T08:18:55+00:00",
-      "entity_name": "AI数学优化",
+      "entity_name": "AI内存优化",
       "track": "AI硬件",
       "signal_type": "research",
       "summary_zh": "探讨AI性能提升是否依赖于数学算法优化而非硬件RAM增加",
@@ -745,7 +767,7 @@
       "entity_name": "thereisnospoon",
       "track": "AI基础设施",
       "signal_type": "research",
-      "summary_zh": "基于第一性原理构建的机器学习入门教程，适合工程师深入理解ML系统。",
+      "summary_zh": "基于第一性原理构建的机器学习入门教程，适合工程师深入理解ML系统",
       "team_origin": "unknown",
       "score_raw": 3.9,
       "score_final": 2.8,
@@ -1534,7 +1556,7 @@
       "entity_name": "HitCC",
       "track": "AI Coding",
       "signal_type": "research",
-      "summary_zh": "HitCC项目提供了Claude Code CLI的完整逆向工程文档。",
+      "summary_zh": "HitCC是Claude Code CLI Node.js版本的完整逆向工程文档。",
       "team_origin": "unknown",
       "score_raw": 3.7,
       "score_final": 2.6,
@@ -3488,10 +3510,10 @@
       }
     },
     {
-      "source": "techcrunch",
-      "source_url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
-      "published_at": "2026-03-28T14:15:00+00:00",
-      "entity_name": "Anthropic",
+      "source": "hackernews",
+      "source_url": "https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research",
+      "published_at": "2026-03-28T14:08:33+00:00",
+      "entity_name": "AI overly affirms",
       "track": "AI助理",
       "signal_type": "market_trend",
       "summary_zh": "Anthropic的AI助理Claude付费用户激增，市场潜力巨大",
@@ -3499,9 +3521,9 @@
       "score_raw": 3.3,
       "score_final": 1.9,
       "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.7,
-        "strategic_value": 0.6
+        "novelty": 0.3,
+        "market_potential": 0.5,
+        "strategic_value": 0.3
       },
       "metadata": {
         "author": "Julie Bort",
@@ -3988,24 +4010,37 @@
       "score_raw": 3.1,
       "score_final": 1.7,
       "quality": {
-        "novelty": 0.1,
+        "novelty": 0.5,
         "market_potential": 0.5,
         "strategic_value": 0.5
       },
       "metadata": {
-        "author": "Theresa Loconsolo",
+        "hn_score": 155,
+        "comments": 50,
+        "hn_id": 47524704
+      }
+    },
+    {
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
+      "published_at": "2026-03-28T14:15:00+00:00",
+      "entity_name": "Claude",
+      "track": "AI助理",
+      "signal_type": "market_trend",
+      "summary_zh": "Anthropic的AI助理Claude付费用户激增，市场潜力大",
+      "team_origin": "non-chinese",
+      "score_raw": 3.3,
+      "score_final": 2.3,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.7,
+        "strategic_value": 0.6
+      },
+      "metadata": {
+        "author": "Julie Bort",
         "tags": [
-          "AI",
-          "Social",
-          "Startups",
-          "app shutdown",
-          "drones",
-          "Kleiner Perkins",
-          "Meta",
-          "meta lawsuit",
-          "OpenAI",
-          "Roundup",
-          "sora"
+          "TC",
+          "AI"
         ]
       }
     },
@@ -4219,13 +4254,13 @@
       }
     },
     {
-      "source": "github",
-      "source_url": "https://github.com/EESJGong/Graph-CAD",
-      "published_at": "2026-03-26T07:08:17Z",
-      "entity_name": "Graph-CAD",
-      "track": "AI工业",
+      "source": "hackernews",
+      "source_url": "https://en.andros.dev/blog/aa31d744/from-zero-to-a-rag-system-successes-and-failures/",
+      "published_at": "2026-03-24T06:53:30+00:00",
+      "entity_name": "RAG系统",
+      "track": "基础模型",
       "signal_type": "research",
-      "summary_zh": "学习层次化和几何感知的图表示，用于文本到CAD模型的转换",
+      "summary_zh": "分析从零到构建RAG系统的过程，探讨成功与失败",
       "team_origin": "unknown",
       "score_raw": 3.2,
       "score_final": 1.4,
@@ -4364,9 +4399,9 @@
       "score_raw": 2.7,
       "score_final": 1.2,
       "quality": {
-        "novelty": 0.3,
-        "market_potential": 0.4,
-        "strategic_value": 0.2
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
       },
       "metadata": {
         "stars": 70,

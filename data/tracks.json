@@ -589,8 +589,8 @@
     },
     {
       "name": "AI视频",
-      "score": 8.6,
-      "project_count": 5,
+      "score": 8.8,
+      "project_count": 7,
       "top_signals": [
         {
           "entity_name": "FlowIt",
@@ -703,6 +703,91 @@
           "source_url": "http://arxiv.org/abs/2603.28385v1",
           "summary_zh": "研究无批评家深度强化学习在不规则六边形网格上的海上覆盖路径规划",
           "score_final": 2.5,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        }
+      ],
+      "trend": "up",
+      "signal_type_dist": {
+        "research": 3
+      }
+    },
+    {
+      "name": "AI医疗",
+      "score": 8.4,
+      "project_count": 4,
+      "top_signals": [
+        {
+          "entity_name": "Foundation Model for Cardiac Time Series",
+          "source": "arxiv",
+          "source_url": "http://arxiv.org/abs/2603.26475v1",
+          "summary_zh": "提出一种新的基于掩码潜在注意力的心脏时间序列基础模型，用于心血管诊断。",
+          "score_final": 1.6,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "Biomedical Time-Series Data Annotation",
+          "source": "arxiv",
+          "source_url": "http://arxiv.org/abs/2603.26592v1",
+          "summary_zh": "研究比较了生物医学时间序列数据标注的三种样本选择方法。",
+          "score_final": 1.4,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "KMM-CP",
+          "source": "arxiv",
+          "source_url": "http://arxiv.org/abs/2603.26415v1",
+          "summary_zh": "KMM-CP通过选择性核均值匹配实现协变量偏移下的实用化置信预测",
+          "score_final": 1.4,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "Generative Modeling in Protein Design",
+          "source": "arxiv",
+          "source_url": "http://arxiv.org/abs/2603.26378v1",
+          "summary_zh": "研究蛋白质设计中的生成建模，推动序列设计和生物分子建模。",
+          "score_final": 1.4,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        }
+      ],
+      "trend": "up",
+      "signal_type_dist": {
+        "research": 4
+      }
+    },
+    {
+      "name": "AI工业",
+      "score": 8.4,
+      "project_count": 3,
+      "top_signals": [
+        {
+          "entity_name": "Graph-CAD",
+          "source": "github",
+          "source_url": "https://github.com/EESJGong/Graph-CAD",
+          "summary_zh": "学习层次化和几何感知的图表示，用于文本到CAD模型的转换。",
+          "score_final": 1.4,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "Buffer Storage, Retrieval, and Reshuffling Problem (BSRRP)",
+          "source": "arxiv",
+          "source_url": "http://arxiv.org/abs/2603.26542v1",
+          "summary_zh": "研究自动化缓冲区存储、检索和重新洗牌问题，提高生产系统效率。",
+          "score_final": 1.4,
+          "signal_type": "research",
+          "team_origin": "unknown"
+        },
+        {
+          "entity_name": "CADSmith",
+          "source": "arxiv",
+          "source_url": "http://arxiv.org/abs/2603.26512v1",
+          "summary_zh": "CADSmith是一个多代理CAD生成系统，能从自然语言生成CadQuery代码并进行几何验证。",
+          "score_final": 1.4,
           "signal_type": "research",
           "team_origin": "unknown"
         }
