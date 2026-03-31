@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-03-31T04:02:51.711759+00:00",
-  "total": 173,
+  "generated_at": "2026-03-31T11:21:48.830339+00:00",
+  "total": 174,
   "signals": [
+    {
+      "source": "github",
+      "source_url": "https://github.com/instructkr/claude-code",
+      "published_at": "2026-03-31T08:58:08Z",
+      "entity_name": "Claude Code",
+      "track": "AI Coding",
+      "signal_type": "research",
+      "summary_zh": "Claude Code是Anthropic提供的用于研究的代码快照，具有改进AI编程的潜力。",
+      "team_origin": "non-chinese",
+      "score_raw": 5.5,
+      "score_final": 5.3,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "stars": 4630,
+        "forks": 7644,
+        "language": "TypeScript",
+        "topics": [],
+        "watchers": 4630
+      }
+    },
     {
       "source": "hackernews",
       "source_url": "https://claude.nagdy.me/",
@@ -9,19 +33,109 @@
       "entity_name": "Claude Code",
       "track": "AI Coding",
       "signal_type": "product_launch",
-      "summary_zh": "通过实践而非阅读学习Claude Code，可能推动AI编程教育发展",
+      "summary_zh": "通过实践而非阅读学习Claude Code，可能推动AI编程教育发展。",
       "team_origin": "unknown",
-      "score_raw": 5.0,
-      "score_final": 4.9,
+      "score_raw": 5.5,
+      "score_final": 5.3,
       "quality": {
         "novelty": 0.5,
         "market_potential": 0.5,
         "strategic_value": 0.5
       },
       "metadata": {
-        "hn_score": 188,
-        "comments": 93,
+        "hn_score": 237,
+        "comments": 102,
         "hn_id": 47579229
+      }
+    },
+    {
+      "source": "github",
+      "source_url": "https://github.com/drona23/claude-token-efficient",
+      "published_at": "2026-03-30T12:59:07Z",
+      "entity_name": "claude-token-efficient",
+      "track": "AI助理",
+      "signal_type": "product_launch",
+      "summary_zh": "开源项目，旨在减少AI助理Claude的输出令牌，提高效率。",
+      "team_origin": "unknown",
+      "score_raw": 4.5,
+      "score_final": 4.5,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "stars": 1003,
+        "forks": 41,
+        "language": null,
+        "topics": [],
+        "watchers": 1003
+      }
+    },
+    {
+      "source": "hackernews",
+      "source_url": "https://ollama.com/blog/mlx",
+      "published_at": "2026-03-31T03:40:45+00:00",
+      "entity_name": "Ollama",
+      "track": "AI基础设施",
+      "signal_type": "product_launch",
+      "summary_zh": "Ollama在Apple Silicon上通过MLX技术预览版提供支持，可能提升AI基础设施性能。",
+      "team_origin": "unknown",
+      "score_raw": 4.5,
+      "score_final": 4.5,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "hn_score": 295,
+        "comments": 144,
+        "hn_id": 47582482
+      }
+    },
+    {
+      "source": "hackernews",
+      "source_url": "https://twitter.com/Fried_rice/status/2038894956459290963",
+      "published_at": "2026-03-31T09:00:40+00:00",
+      "entity_name": "Claude Code",
+      "track": "AI安全",
+      "signal_type": "company_news",
+      "summary_zh": "Claude Code源代码泄露，影响AI安全领域",
+      "team_origin": "unknown",
+      "score_raw": 4.7,
+      "score_final": 4.5,
+      "quality": {
+        "novelty": 0.1,
+        "market_potential": 0.5,
+        "strategic_value": 0.1
+      },
+      "metadata": {
+        "hn_score": 201,
+        "comments": 90,
+        "hn_id": 47584540
+      }
+    },
+    {
+      "source": "hackernews",
+      "source_url": "https://github.com/google-research/timesfm",
+      "published_at": "2026-03-31T05:21:59+00:00",
+      "entity_name": "Google's 200M-parameter time-series foundation model",
+      "track": "基础模型",
+      "signal_type": "research",
+      "summary_zh": "谷歌发布200M参数时间序列基础模型，具有16k上下文能力",
+      "team_origin": "non-chinese",
+      "score_raw": 4.5,
+      "score_final": 4.5,
+      "quality": {
+        "novelty": 0.7,
+        "market_potential": 0.5,
+        "strategic_value": 0.6
+      },
+      "metadata": {
+        "hn_score": 124,
+        "comments": 60,
+        "hn_id": 47583045
       }
     },
     {
@@ -33,107 +147,65 @@
       "signal_type": "product_launch",
       "summary_zh": "使用Codex插件从Claude Code审查代码或委派任务",
       "team_origin": "unknown",
-      "score_raw": 4.5,
-      "score_final": 4.5,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "stars": 2281,
-        "forks": 79,
-        "language": "JavaScript",
-        "topics": [],
-        "watchers": 2281
-      }
-    },
-    {
-      "source": "hackernews",
-      "source_url": "https://notes.zachmanson.com/copilot-edited-an-ad-into-my-pr/",
-      "published_at": "2026-03-30T04:04:31+00:00",
-      "entity_name": "Copilot",
-      "track": "AI Coding",
-      "signal_type": "product_launch",
-      "summary_zh": "Copilot将广告编辑进PR，显示AI编码辅助工具的新功能",
-      "team_origin": "non-chinese",
-      "score_raw": 4.5,
-      "score_final": 4.5,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "hn_score": 1470,
-        "comments": 615,
-        "hn_id": 47570269
-      }
-    },
-    {
-      "source": "hackernews",
-      "source_url": "https://github.com/drona23/claude-token-efficient",
-      "published_at": "2026-03-31T01:23:34+00:00",
-      "entity_name": "Universal Claude",
-      "track": "基础模型",
-      "signal_type": "research",
-      "summary_zh": "Universal Claude模型，通过减少输出令牌提高效率",
-      "team_origin": "unknown",
-      "score_raw": 4.4,
-      "score_final": 4.4,
-      "quality": {
-        "novelty": 0.6,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "hn_score": 141,
-        "comments": 55,
-        "hn_id": 47581701
-      }
-    },
-    {
-      "source": "hackernews",
-      "source_url": "https://dani2442.github.io/posts/continuous-rl/",
-      "published_at": "2026-03-30T07:34:04+00:00",
-      "entity_name": "Hamilton-Jacobi-Bellman Equation",
-      "track": "基础模型",
-      "signal_type": "research",
-      "summary_zh": "探讨强化学习和扩散模型中的哈密顿-雅可比-贝尔曼方程，对AI基础模型研究有贡献",
-      "team_origin": "unknown",
       "score_raw": 4.3,
       "score_final": 4.3,
       "quality": {
         "novelty": 0.5,
         "market_potential": 0.5,
-        "strategic_value": 0.5
+        "strategic_value": 0.3
       },
       "metadata": {
-        "hn_score": 153,
-        "comments": 46,
-        "hn_id": 47571495
+        "stars": 4016,
+        "forks": 154,
+        "language": "JavaScript",
+        "topics": [],
+        "watchers": 4016
+      }
+    },
+    {
+      "source": "github",
+      "source_url": "https://github.com/ChinaSiro/claude-code-sourcemap",
+      "published_at": "2026-03-31T08:15:54Z",
+      "entity_name": "claude-code-sourcemap",
+      "track": "AI Coding",
+      "signal_type": "product_launch",
+      "summary_zh": "GitHub上的中国Siro项目，提供代码源映射工具，提升代码管理效率。",
+      "team_origin": "chinese",
+      "score_raw": 4.3,
+      "score_final": 4.3,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.3
+      },
+      "metadata": {
+        "stars": 1370,
+        "forks": 2333,
+        "language": "TypeScript",
+        "topics": [],
+        "watchers": 1370
       }
     },
     {
       "source": "hackernews",
-      "source_url": "https://arxiv.org/abs/2603.26524",
-      "published_at": "2026-03-30T11:05:37+00:00",
-      "entity_name": "Mathematical methods and human thought",
-      "track": "AI助理",
-      "signal_type": "research",
-      "summary_zh": "探讨AI时代数学方法与人类思维的关系，对AI助理领域有启发",
-      "team_origin": "unknown",
-      "score_raw": 4.2,
-      "score_final": 4.2,
+      "source_url": "https://www.theregister.com/2026/03/30/github_copilot_ads_pull_requests/",
+      "published_at": "2026-03-31T05:11:24+00:00",
+      "entity_name": "GitHub",
+      "track": "AI Coding",
+      "signal_type": "company_news",
+      "summary_zh": "GitHub因用户反对取消Copilot的拉取请求广告",
+      "team_origin": "non-chinese",
+      "score_raw": 4.3,
+      "score_final": 4.3,
       "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.3,
-        "strategic_value": 0.4
+        "novelty": 0.3,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
       },
       "metadata": {
-        "hn_score": 197,
-        "comments": 80,
-        "hn_id": 47572771
+        "hn_score": 250,
+        "comments": 164,
+        "hn_id": 47582984
       }
     },
     {
@@ -153,8 +225,8 @@
         "strategic_value": 0.5
       },
       "metadata": {
-        "hn_score": 354,
-        "comments": 477,
+        "hn_score": 362,
+        "comments": 491,
         "hn_id": 47573420
       }
     },
@@ -189,89 +261,12 @@
     },
     {
       "source": "techcrunch",
-      "source_url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
-      "published_at": "2026-03-30T13:00:00+00:00",
-      "entity_name": "Rebellions",
-      "track": "AI硬件",
-      "signal_type": "funding",
-      "summary_zh": "AI芯片初创公司Rebellions在上市前融资4亿美元，估值23亿美元，挑战英伟达",
-      "team_origin": "non-chinese",
-      "score_raw": 3.8,
-      "score_final": 3.8,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.7,
-        "strategic_value": 0.6
-      },
-      "metadata": {
-        "author": "Lucas Ropek",
-        "tags": [
-          "AI",
-          "Hardware",
-          "chips",
-          "Mirae Asset",
-          "Rebellions"
-        ]
-      }
-    },
-    {
-      "source": "techcrunch",
-      "source_url": "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/",
-      "published_at": "2026-03-30T11:00:00+00:00",
-      "entity_name": "Starcloud",
-      "track": "AI基础设施",
-      "signal_type": "funding",
-      "summary_zh": "Starcloud完成1.7亿美元A轮融资，计划在太空建设数据中心。",
-      "team_origin": "non-chinese",
-      "score_raw": 3.8,
-      "score_final": 3.8,
-      "quality": {
-        "novelty": 0.7,
-        "market_potential": 0.6,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "author": "Tim Fernholz",
-        "tags": [
-          "AI",
-          "Space",
-          "Benchmark",
-          "eqt ventures",
-          "Starcloud",
-          "Y Combinator"
-        ]
-      }
-    },
-    {
-      "source": "astock",
-      "source_url": "http://finance.eastmoney.com/a/202603303688846110.html",
-      "published_at": "2026-03-30 17:56:00",
-      "entity_name": "金山办公",
-      "track": "AI基础设施",
-      "signal_type": "market_trend",
-      "summary_zh": "金山办公股价位列科创板百元股，显示市场对其价值的认可",
-      "team_origin": "chinese",
-      "score_raw": 4.1,
-      "score_final": 3.7,
-      "quality": {
-        "novelty": 0.1,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "company_name": "金山办公",
-        "stock_code": "688111",
-        "news_source": ""
-      }
-    },
-    {
-      "source": "techcrunch",
       "source_url": "https://techcrunch.com/2026/03/30/former-coatue-partner-raises-huge-65m-seed-for-enterprise-ai-agent-startup/",
       "published_at": "2026-03-30T21:53:09+00:00",
       "entity_name": "enterprise AI agent startup",
       "track": "AI助理",
       "signal_type": "funding",
-      "summary_zh": "前Coatue合伙人为AI企业代理初创公司筹集6500万美元种子轮资金",
+      "summary_zh": "前Coatue合伙人创立的企业AI代理初创公司获得6500万美元种子轮融资。",
       "team_origin": "non-chinese",
       "score_raw": 3.5,
       "score_final": 3.5,
@@ -288,6 +283,33 @@
           "coatue",
           "lightspeed",
           "Sri Viswanath"
+        ]
+      }
+    },
+    {
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
+      "published_at": "2026-03-30T13:00:00+00:00",
+      "entity_name": "Rebellions",
+      "track": "AI硬件",
+      "signal_type": "funding",
+      "summary_zh": "AI芯片初创公司Rebellions在上市前融资4亿美元，估值23亿美元，挑战英伟达",
+      "team_origin": "non-chinese",
+      "score_raw": 3.5,
+      "score_final": 3.5,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "author": "Lucas Ropek",
+        "tags": [
+          "AI",
+          "Hardware",
+          "chips",
+          "Mirae Asset",
+          "Rebellions"
         ]
       }
     },
@@ -319,47 +341,29 @@
       }
     },
     {
-      "source": "hackernews",
-      "source_url": "https://www.lesswrong.com/posts/BJ4pnropWdnzzgeJc/i-am-definitely-missing-the-pre-ai-writing-era",
-      "published_at": "2026-03-30T07:03:18+00:00",
-      "entity_name": "pre-AI writing era",
-      "track": "AI助理",
-      "signal_type": "research",
-      "summary_zh": "怀念AI之前的写作时代，可能对AI写作工具有研究价值",
-      "team_origin": "unknown",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/03/31/airbnb-private-car-pick-up-service-welcome-pickups/",
+      "published_at": "2026-03-31T09:00:00+00:00",
+      "entity_name": "Airbnb",
+      "track": "自动驾驶",
+      "signal_type": "product_launch",
+      "summary_zh": "Airbnb与Welcome Pickups合作推出私人汽车接送服务",
+      "team_origin": "non-chinese",
       "score_raw": 3.3,
       "score_final": 3.3,
       "quality": {
-        "novelty": 0.1,
-        "market_potential": 0.1,
-        "strategic_value": 0.1
+        "novelty": 0.5,
+        "market_potential": 0.7,
+        "strategic_value": 0.6
       },
       "metadata": {
-        "hn_score": 291,
-        "comments": 214,
-        "hn_id": 47571279
-      }
-    },
-    {
-      "source": "hackernews",
-      "source_url": "https://github.com/austin-weeks/miasma",
-      "published_at": "2026-03-29T10:10:12+00:00",
-      "entity_name": "Miasma",
-      "track": "AI安全",
-      "signal_type": "product_launch",
-      "summary_zh": "Miasma是一个工具，用于捕获AI网络爬虫，使其陷入无尽的陷阱。",
-      "team_origin": "unknown",
-      "score_raw": 4.6,
-      "score_final": 3.3,
-      "quality": {
-        "novelty": 0.6,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "hn_score": 339,
-        "comments": 243,
-        "hn_id": 47561819
+        "author": "Ivan Mehta",
+        "tags": [
+          "Apps",
+          "Airbnb",
+          "travel",
+          "car service"
+        ]
       }
     },
     {
@@ -419,25 +423,47 @@
       }
     },
     {
-      "source": "hackernews",
-      "source_url": "https://github.com/austin-weeks/miasma",
-      "published_at": "2026-03-29T10:10:12+00:00",
-      "entity_name": "Miasma",
-      "track": "AI安全",
-      "signal_type": "product_launch",
-      "summary_zh": "Miasma是一个工具，用于捕获AI网络爬虫，使其陷入无尽的陷阱。",
-      "team_origin": "unknown",
-      "score_raw": 4.6,
-      "score_final": 4.6,
+      "source": "astock",
+      "source_url": "http://finance.eastmoney.com/a/202603313690524379.html",
+      "published_at": "2026-03-31 17:28:00",
+      "entity_name": "金山办公",
+      "track": "AI基础设施",
+      "signal_type": "market_trend",
+      "summary_zh": "金山办公等86只科创板股票成为百元股，显示市场对科创板的高估值",
+      "team_origin": "chinese",
+      "score_raw": 3.6,
+      "score_final": 3.3,
       "quality": {
-        "novelty": 0.6,
+        "novelty": 0.1,
         "market_potential": 0.5,
         "strategic_value": 0.5
       },
       "metadata": {
-        "hn_score": 311,
-        "comments": 223,
-        "hn_id": 47561819
+        "company_name": "金山办公",
+        "stock_code": "688111",
+        "news_source": ""
+      }
+    },
+    {
+      "source": "hackernews",
+      "source_url": "https://arxiv.org/abs/2603.26524",
+      "published_at": "2026-03-30T11:05:37+00:00",
+      "entity_name": "Mathematical methods and human thought",
+      "track": "AI基础设施",
+      "signal_type": "research",
+      "summary_zh": "探讨AI时代数学方法与人类思维的关系，对AI基础设施发展有指导意义",
+      "team_origin": "unknown",
+      "score_raw": 4.5,
+      "score_final": 3.2,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "hn_score": 203,
+        "comments": 86,
+        "hn_id": 47572771
       }
     },
     {
@@ -457,20 +483,20 @@
         "strategic_value": 0.5
       },
       "metadata": {
-        "hn_score": 943,
-        "comments": 605,
+        "hn_score": 951,
+        "comments": 608,
         "hn_id": 47566865
       }
     },
     {
       "source": "hackernews",
-      "source_url": "https://www.cnn.com/2026/03/29/us/angela-lipps-ai-facial-recognition",
-      "published_at": "2026-03-29T14:20:23+00:00",
-      "entity_name": "AI面部识别",
-      "track": "AI安全",
-      "signal_type": "regulatory",
-      "summary_zh": "AI面部识别技术误捕，引发对AI安全和监管的关注",
-      "team_origin": "unknown",
+      "source_url": "https://notes.zachmanson.com/copilot-edited-an-ad-into-my-pr/",
+      "published_at": "2026-03-30T04:04:31+00:00",
+      "entity_name": "Copilot",
+      "track": "AI Coding",
+      "signal_type": "product_launch",
+      "summary_zh": "Copilot将广告编辑进PR，显示AI编码辅助工具的新功能",
+      "team_origin": "non-chinese",
       "score_raw": 4.5,
       "score_final": 3.2,
       "quality": {
@@ -479,9 +505,9 @@
         "strategic_value": 0.5
       },
       "metadata": {
-        "hn_score": 431,
-        "comments": 195,
-        "hn_id": 47563384
+        "hn_score": 1523,
+        "comments": 625,
+        "hn_id": 47570269
       }
     },
     {
@@ -501,31 +527,9 @@
         "strategic_value": 0.5
       },
       "metadata": {
-        "hn_score": 262,
-        "comments": 283,
+        "hn_score": 264,
+        "comments": 295,
         "hn_id": 47568028
-      }
-    },
-    {
-      "source": "hackernews",
-      "source_url": "https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more",
-      "published_at": "2026-03-29T08:18:55+00:00",
-      "entity_name": "AI内存优化",
-      "track": "AI硬件",
-      "signal_type": "research",
-      "summary_zh": "探讨AI性能提升是否依赖于数学算法优化而非硬件RAM增加",
-      "team_origin": "unknown",
-      "score_raw": 4.5,
-      "score_final": 3.2,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "hn_score": 186,
-        "comments": 99,
-        "hn_id": 47561297
       }
     },
     {
@@ -547,38 +551,12 @@
       "metadata": {
         "author": "Julie Bort",
         "tags": [
-          "AI",
-          "Security",
-          "Startups",
           "TC",
+          "Startups",
+          "Security",
+          "AI",
           "Delve",
           "security compliance"
-        ]
-      }
-    },
-    {
-      "source": "techcrunch",
-      "source_url": "https://techcrunch.com/2026/03/30/blueskys-new-ai-tool-attie-is-already-the-most-blocked-account-other-than-j-d-vance/",
-      "published_at": "2026-03-30T18:03:59+00:00",
-      "entity_name": "Attie",
-      "track": "AI助理",
-      "signal_type": "product_launch",
-      "summary_zh": "Bluesky的AI工具Attie被大量用户屏蔽，显示用户对AI工具的抵触。",
-      "team_origin": "unknown",
-      "score_raw": 3.3,
-      "score_final": 3.2,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.5,
-        "strategic_value": 0.3
-      },
-      "metadata": {
-        "author": "Amanda Silberling",
-        "tags": [
-          "Social",
-          "attie",
-          "Bluesky",
-          "jay graber"
         ]
       }
     },
@@ -589,14 +567,14 @@
       "entity_name": "Mistral AI",
       "track": "AI基础设施",
       "signal_type": "funding",
-      "summary_zh": "Mistral AI筹集8.3亿美元债务资金，在巴黎附近建立数据中心",
+      "summary_zh": "Mistral AI筹集8.3亿美元债务资金，在巴黎附近建立数据中心，预计2026年第二季度开始运营。",
       "team_origin": "non-chinese",
-      "score_raw": 3.2,
-      "score_final": 3.2,
+      "score_raw": 3.1,
+      "score_final": 3.1,
       "quality": {
-        "novelty": 0.3,
+        "novelty": 0.1,
         "market_potential": 0.5,
-        "strategic_value": 0.4
+        "strategic_value": 0.5
       },
       "metadata": {
         "author": "Ivan Mehta",
@@ -610,54 +588,51 @@
       }
     },
     {
-      "source": "github",
-      "source_url": "https://github.com/HKUDS/CatchMe",
-      "published_at": "2026-03-30T04:21:59Z",
-      "entity_name": "CatchMe",
-      "track": "AI安全",
-      "signal_type": "product_launch",
-      "summary_zh": "CatchMe：捕捉你的整个数字足迹，提升个人隐私保护",
+      "source": "hackernews",
+      "source_url": "https://dani2442.github.io/posts/continuous-rl/",
+      "published_at": "2026-03-30T07:34:04+00:00",
+      "entity_name": "Hamilton-Jacobi-Bellman Equation",
+      "track": "基础模型",
+      "signal_type": "research",
+      "summary_zh": "探讨强化学习和扩散模型中的哈密顿-雅可比-贝尔曼方程，对AI基础模型研究有贡献",
       "team_origin": "unknown",
-      "score_raw": 3.1,
-      "score_final": 3.1,
+      "score_raw": 4.2,
+      "score_final": 3.0,
       "quality": {
         "novelty": 0.5,
-        "market_potential": 0.5,
-        "strategic_value": 0.3
+        "market_potential": 0.3,
+        "strategic_value": 0.5
       },
       "metadata": {
-        "stars": 63,
-        "forks": 4,
-        "language": "Python",
-        "topics": [
-          "ai-agent",
-          "clawdbot-plugin",
-          "llm",
-          "recall-ai",
-          "retrieval-systems",
-          "screen-recorder"
-        ],
-        "watchers": 63
+        "hn_score": 160,
+        "comments": 48,
+        "hn_id": 47571495
       }
     },
     {
-      "source": "36kr",
-      "source_url": "https://36kr.com/p/3745267391103239?f=rss",
-      "published_at": "2026-03-30T10:05:42+00:00",
-      "entity_name": "全国首个万卡级全栈自主可控智算集群",
-      "track": "AI基础设施",
-      "signal_type": "company_news",
-      "summary_zh": "全国首个万卡级全栈自主可控智算集群在深圳点亮，使用全国产先进芯片构建",
-      "team_origin": "chinese",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/03/30/blueskys-new-ai-tool-attie-is-already-the-most-blocked-account-other-than-j-d-vance/",
+      "published_at": "2026-03-30T18:03:59+00:00",
+      "entity_name": "Attie",
+      "track": "AI助理",
+      "signal_type": "product_launch",
+      "summary_zh": "Bluesky的AI工具Attie被大量用户屏蔽，显示用户对AI工具的抵触。",
+      "team_origin": "unknown",
       "score_raw": 3.1,
-      "score_final": 3.1,
+      "score_final": 3.0,
       "quality": {
-        "novelty": 0.7,
-        "market_potential": 0.6,
-        "strategic_value": 0.8
+        "novelty": 0.5,
+        "market_potential": 0.3,
+        "strategic_value": 0.3
       },
       "metadata": {
-        "is_funding_news": false
+        "author": "Amanda Silberling",
+        "tags": [
+          "Social",
+          "attie",
+          "Bluesky",
+          "jay graber"
+        ]
       }
     },
     {
@@ -682,52 +657,12 @@
     },
     {
       "source": "36kr",
-      "source_url": "https://36kr.com/p/3745335802790147?f=rss",
-      "published_at": "2026-03-30T23:30:00+00:00",
-      "entity_name": "EnerVenue",
-      "track": "AI硬件",
+      "source_url": "https://36kr.com/newsflashes/3746728711389700?f=rss",
+      "published_at": "2026-03-31T10:49:32+00:00",
+      "entity_name": "美酷瑞Gamercury AI",
+      "track": "AI基础设施",
       "signal_type": "funding",
-      "summary_zh": "新型镍氢气电池技术公司EnerVenue完成3亿美元B轮融资，将在华建首条吉瓦级生产线",
-      "team_origin": "non-chinese",
-      "score_raw": 3.0,
-      "score_final": 3.0,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "is_funding_news": true
-      }
-    },
-    {
-      "source": "36kr",
-      "source_url": "https://36kr.com/p/3745148560195846?f=rss",
-      "published_at": "2026-03-30T08:02:40+00:00",
-      "entity_name": "蚂蚁集团",
-      "track": "AI金融",
-      "signal_type": "company_news",
-      "summary_zh": "蚂蚁集团完成对香港耀才证券控股权收购，补全证券业务拼图",
-      "team_origin": "chinese",
-      "score_raw": 3.1,
-      "score_final": 3.0,
-      "quality": {
-        "novelty": 0.3,
-        "market_potential": 0.7,
-        "strategic_value": 0.6
-      },
-      "metadata": {
-        "is_funding_news": true
-      }
-    },
-    {
-      "source": "36kr",
-      "source_url": "https://36kr.com/newsflashes/3746182377341447?f=rss",
-      "published_at": "2026-03-31T01:33:46+00:00",
-      "entity_name": "玻色量子",
-      "track": "AI硬件",
-      "signal_type": "funding",
-      "summary_zh": "玻色量子完成10亿元B轮融资，将投入技术攻关和量产制造",
+      "summary_zh": "AI游戏公司美酷瑞Gamercury AI完成新一轮融资，将用于AI游戏引擎研发和全球化推广。",
       "team_origin": "chinese",
       "score_raw": 3.0,
       "score_final": 3.0,
@@ -741,23 +676,25 @@
       }
     },
     {
-      "source": "36kr",
-      "source_url": "https://36kr.com/p/3746104816943617?f=rss",
-      "published_at": "2026-03-31T00:17:24+00:00",
-      "entity_name": "蚂蚁集团",
+      "source": "hackernews",
+      "source_url": "https://www.cnn.com/2026/03/29/us/angela-lipps-ai-facial-recognition",
+      "published_at": "2026-03-29T14:20:23+00:00",
+      "entity_name": "Police AI Facial Recognition",
       "track": "AI安全",
-      "signal_type": "company_news",
-      "summary_zh": "蚂蚁集团安全团队发现并协助修复OpenClaw高危漏洞",
-      "team_origin": "chinese",
-      "score_raw": 3.0,
+      "signal_type": "regulatory",
+      "summary_zh": "AI面部识别技术误捕，引发对AI安全和监管的关注",
+      "team_origin": "non-chinese",
+      "score_raw": 4.1,
       "score_final": 2.9,
       "quality": {
-        "novelty": 0.5,
+        "novelty": 0.1,
         "market_potential": 0.5,
         "strategic_value": 0.5
       },
       "metadata": {
-        "is_funding_news": true
+        "hn_score": 434,
+        "comments": 198,
+        "hn_id": 47563384
       }
     },
     {
@@ -767,7 +704,7 @@
       "entity_name": "thereisnospoon",
       "track": "AI基础设施",
       "signal_type": "research",
-      "summary_zh": "基于第一性原理构建的机器学习入门教程，适合工程师深入理解ML系统",
+      "summary_zh": "基于第一性原理构建的机器学习入门教程，适合工程师深入理解ML系统。",
       "team_origin": "unknown",
       "score_raw": 3.9,
       "score_final": 2.8,
@@ -777,7 +714,7 @@
         "strategic_value": 0.3
       },
       "metadata": {
-        "stars": 383,
+        "stars": 391,
         "forks": 21,
         "language": "Python",
         "topics": [
@@ -790,29 +727,7 @@
           "transformers",
           "tutorial"
         ],
-        "watchers": 383
-      }
-    },
-    {
-      "source": "hackernews",
-      "source_url": "https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering",
-      "published_at": "2026-03-28T08:06:19+00:00",
-      "entity_name": "CERN",
-      "track": "AI基础设施",
-      "signal_type": "research",
-      "summary_zh": "CERN在FPGA上使用超紧凑AI模型进行实时LHC数据过滤",
-      "team_origin": "non-chinese",
-      "score_raw": 4.8,
-      "score_final": 2.8,
-      "quality": {
-        "novelty": 0.7,
-        "market_potential": 0.5,
-        "strategic_value": 0.6
-      },
-      "metadata": {
-        "hn_score": 327,
-        "comments": 146,
-        "hn_id": 47552562
+        "watchers": 391
       }
     },
     {
@@ -850,7 +765,7 @@
       "entity_name": "Diffusion Transformers",
       "track": "基础模型",
       "signal_type": "research",
-      "summary_zh": "研究提出在文本到图像扩散模型中增加多样性的方法，以提高创造性应用的生成结果多样性。",
+      "summary_zh": "研究提出在文本到图像扩散模型中增加多样性的方法，以提高创造性应用的生成结果范围。",
       "team_origin": "unknown",
       "score_raw": 2.8,
       "score_final": 2.8,
@@ -876,8 +791,8 @@
       "entity_name": "RAD-AI",
       "track": "AI基础设施",
       "signal_type": "research",
-      "summary_zh": "RAD-AI重新思考AI增强生态系统的架构文档，对智能城市和平台有重要价值",
-      "team_origin": "non-chinese",
+      "summary_zh": "RAD-AI重新思考AI增强生态系统的架构文档，对智能城市和平台有战略价值",
+      "team_origin": "unknown",
       "score_raw": 2.8,
       "score_final": 2.8,
       "quality": {
@@ -901,7 +816,7 @@
       "track": "AI安全",
       "signal_type": "research",
       "summary_zh": "研究自我改进系统的安全性验证理论，探讨风险与效用平衡。",
-      "team_origin": "unknown",
+      "team_origin": "non-chinese",
       "score_raw": 2.8,
       "score_final": 2.8,
       "quality": {
@@ -918,39 +833,12 @@
     },
     {
       "source": "arxiv",
-      "source_url": "http://arxiv.org/abs/2603.28610v1",
-      "published_at": "2026-03-30T15:57:32Z",
-      "entity_name": "ResAdapt",
-      "track": "基础模型",
-      "signal_type": "research",
-      "summary_zh": "ResAdapt通过自适应分辨率提升多模态大模型的视觉理解效率。",
-      "team_origin": "unknown",
-      "score_raw": 2.8,
-      "score_final": 2.8,
-      "quality": {
-        "novelty": 0.7,
-        "market_potential": 0.5,
-        "strategic_value": 0.6
-      },
-      "metadata": {
-        "authors": [
-          "Huanxuan Liao",
-          "Zhongtao Jiang",
-          "Yupu Hao",
-          "Yuqiao Tan",
-          "Shizhu He"
-        ],
-        "abstract_length": 1348
-      }
-    },
-    {
-      "source": "arxiv",
       "source_url": "http://arxiv.org/abs/2603.28590v1",
       "published_at": "2026-03-30T15:37:42Z",
       "entity_name": "MonitorBench",
       "track": "基础模型",
       "signal_type": "research",
-      "summary_zh": "MonitorBench是针对大型语言模型链式思考监控的全面基准测试。",
+      "summary_zh": "MonitorBench是针对大型语言模型链式思考监控的全面开源基准测试。",
       "team_origin": "unknown",
       "score_raw": 2.8,
       "score_final": 2.8,
@@ -968,6 +856,33 @@
           "Jiawen Gong"
         ],
         "abstract_length": 1679
+      }
+    },
+    {
+      "source": "arxiv",
+      "source_url": "http://arxiv.org/abs/2603.28589v1",
+      "published_at": "2026-03-30T15:37:25Z",
+      "entity_name": "Medical AI Scientist",
+      "track": "AI医疗",
+      "signal_type": "research",
+      "summary_zh": "提出一种加速医学发现的AI科学家系统，能生成假设、做实验、撰写论文",
+      "team_origin": "unknown",
+      "score_raw": 2.8,
+      "score_final": 2.8,
+      "quality": {
+        "novelty": 0.7,
+        "market_potential": 0.5,
+        "strategic_value": 0.6
+      },
+      "metadata": {
+        "authors": [
+          "Hongtao Wu",
+          "Boyun Zheng",
+          "Dingjie Song",
+          "Yu Jiang",
+          "Jianfeng Gao"
+        ],
+        "abstract_length": 1919
       }
     },
     {
@@ -1000,8 +915,8 @@
       "entity_name": "Transferable Hypersphere Optimization",
       "track": "基础模型",
       "signal_type": "research",
-      "summary_zh": "研究提出了一种新的优化方法，以提高大型语言模型的稳定性和扩展性。",
-      "team_origin": "non-chinese",
+      "summary_zh": "研究了一种新的优化方法，用于更稳定地扩展大型语言模型",
+      "team_origin": "unknown",
       "score_raw": 2.8,
       "score_final": 2.8,
       "quality": {
@@ -1021,12 +936,12 @@
     },
     {
       "source": "arxiv",
-      "source_url": "http://arxiv.org/abs/2603.28605v1",
-      "published_at": "2026-03-30T15:54:47Z",
-      "entity_name": "Unsafe2Safe",
-      "track": "AI安全",
+      "source_url": "http://arxiv.org/abs/2603.28730v1",
+      "published_at": "2026-03-30T17:46:31Z",
+      "entity_name": "SOLE-R1",
+      "track": "具身智能",
       "signal_type": "research",
-      "summary_zh": "自动化图像匿名化处理，保护隐私同时保持数据可用性",
+      "summary_zh": "SOLE-R1研究将视频-语言推理作为机器人强化学习的唯一奖励，解决部分可观测性和分布偏移问题。",
       "team_origin": "unknown",
       "score_raw": 2.8,
       "score_final": 2.8,
@@ -1037,10 +952,40 @@
       },
       "metadata": {
         "authors": [
-          "Mih Dinh",
-          "SouYoung Jin"
+          "Philip Schroeder",
+          "Thomas Weng",
+          "Karl Schmeckpeper",
+          "Eric Rosen",
+          "Stephen Hart"
         ],
-        "abstract_length": 1619
+        "abstract_length": 1655
+      }
+    },
+    {
+      "source": "arxiv",
+      "source_url": "http://arxiv.org/abs/2603.28488v1",
+      "published_at": "2026-03-30T14:23:15Z",
+      "entity_name": "PROClaim",
+      "track": "基础模型",
+      "signal_type": "research",
+      "summary_zh": "提出一种法庭式多代理辩论框架，用于验证争议性声明，提高大型语言模型的可靠性。",
+      "team_origin": "unknown",
+      "score_raw": 2.8,
+      "score_final": 2.8,
+      "quality": {
+        "novelty": 0.7,
+        "market_potential": 0.5,
+        "strategic_value": 0.6
+      },
+      "metadata": {
+        "authors": [
+          "Masnun Nuha Chowdhury",
+          "Nusrat Jahan Beg",
+          "Umme Hunny Khan",
+          "Syed Rifat Raiyan",
+          "Md Kamrul Hasan"
+        ],
+        "abstract_length": 1230
       }
     },
     {
@@ -1071,9 +1016,9 @@
       "source_url": "http://arxiv.org/abs/2603.28376v1",
       "published_at": "2026-03-30T12:42:02Z",
       "entity_name": "Marco DeepResearch",
-      "track": "AI基础设施",
+      "track": "基础模型",
       "signal_type": "research",
-      "summary_zh": "Marco DeepResearch通过验证中心设计，解锁高效的深度研究代理。",
+      "summary_zh": "Marco DeepResearch通过验证中心设计解锁高效的深度研究代理。",
       "team_origin": "unknown",
       "score_raw": 2.8,
       "score_final": 2.8,
@@ -1118,29 +1063,6 @@
           "Zheng Cai"
         ],
         "abstract_length": 1683
-      }
-    },
-    {
-      "source": "arxiv",
-      "source_url": "http://arxiv.org/abs/2603.28258v1",
-      "published_at": "2026-03-30T10:34:58Z",
-      "entity_name": "Categorical Perception in LLMs",
-      "track": "基础模型",
-      "signal_type": "research",
-      "summary_zh": "研究大型语言模型处理阿拉伯数字时的类别感知现象，揭示隐藏状态的几何变形。",
-      "team_origin": "unknown",
-      "score_raw": 2.8,
-      "score_final": 2.8,
-      "quality": {
-        "novelty": 0.7,
-        "market_potential": 0.5,
-        "strategic_value": 0.6
-      },
-      "metadata": {
-        "authors": [
-          "Jon-Paul Cacioli"
-        ],
-        "abstract_length": 1383
       }
     },
     {
@@ -1197,6 +1119,73 @@
       }
     },
     {
+      "source": "arxiv",
+      "source_url": "http://arxiv.org/abs/2603.28475v1",
+      "published_at": "2026-03-30T14:14:37Z",
+      "entity_name": "Tac2Real",
+      "track": "AI工业",
+      "signal_type": "research",
+      "summary_zh": "Tac2Real提供了一种轻量级视觉触觉模拟，用于在线强化学习和零样本真实世界部署。",
+      "team_origin": "unknown",
+      "score_raw": 2.8,
+      "score_final": 2.8,
+      "quality": {
+        "novelty": 0.7,
+        "market_potential": 0.5,
+        "strategic_value": 0.6
+      },
+      "metadata": {
+        "authors": [
+          "Ningyu Yan",
+          "Shuai Wang",
+          "Xing Shen",
+          "Hui Wang",
+          "Hanqing Wang"
+        ],
+        "abstract_length": 1186
+      }
+    },
+    {
+      "source": "36kr",
+      "source_url": "https://36kr.com/p/3746575157658368?f=rss",
+      "published_at": "2026-03-31T08:22:11+00:00",
+      "entity_name": "壁仞科技",
+      "track": "AI硬件",
+      "signal_type": "company_news",
+      "summary_zh": "壁仞科技营收三年增16倍，国产算力芯片行业迎来业绩兑现期",
+      "team_origin": "chinese",
+      "score_raw": 2.8,
+      "score_final": 2.8,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.7,
+        "strategic_value": 0.6
+      },
+      "metadata": {
+        "is_funding_news": true
+      }
+    },
+    {
+      "source": "36kr",
+      "source_url": "https://36kr.com/p/3746508855869954?f=rss",
+      "published_at": "2026-03-31T07:25:42+00:00",
+      "entity_name": "追觅科技",
+      "track": "AI硬件",
+      "signal_type": "product_launch",
+      "summary_zh": "追觅科技推出AI智能戒指Glow，聚焦健康监测，瞄准万亿智能可穿戴市场",
+      "team_origin": "chinese",
+      "score_raw": 2.8,
+      "score_final": 2.8,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.7,
+        "strategic_value": 0.6
+      },
+      "metadata": {
+        "is_funding_news": true
+      }
+    },
+    {
       "source": "36kr",
       "source_url": "https://36kr.com/p/3745377703608832?f=rss",
       "published_at": "2026-03-31T00:30:00+00:00",
@@ -1217,23 +1206,77 @@
       }
     },
     {
-      "source": "36kr",
-      "source_url": "https://36kr.com/newsflashes/3746305281049093?f=rss",
-      "published_at": "2026-03-31T03:38:48+00:00",
-      "entity_name": "ABot-M0",
-      "track": "具身智能",
+      "source": "hackernews",
+      "source_url": "https://github.com/austin-weeks/miasma",
+      "published_at": "2026-03-29T10:10:12+00:00",
+      "entity_name": "Miasma",
+      "track": "AI安全",
       "signal_type": "product_launch",
-      "summary_zh": "高德开源全球首个机器人具身操作基座模型ABot-M0，实现通用大脑适配多种机器人",
-      "team_origin": "chinese",
-      "score_raw": 2.8,
-      "score_final": 2.8,
+      "summary_zh": "Miasma是一个工具，用于捕获AI网络爬虫，使其陷入无尽的陷阱。",
+      "team_origin": "unknown",
+      "score_raw": 4.6,
+      "score_final": 2.7,
+      "quality": {
+        "novelty": 0.6,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "hn_score": 341,
+        "comments": 243,
+        "hn_id": 47561819
+      }
+    },
+    {
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/",
+      "published_at": "2026-03-30T11:00:00+00:00",
+      "entity_name": "Starcloud",
+      "track": "AI基础设施",
+      "signal_type": "funding",
+      "summary_zh": "Starcloud完成1.7亿美元A轮融资，计划在太空建设数据中心。",
+      "team_origin": "non-chinese",
+      "score_raw": 3.8,
+      "score_final": 2.7,
+      "quality": {
+        "novelty": 0.7,
+        "market_potential": 0.6,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "author": "Tim Fernholz",
+        "tags": [
+          "AI",
+          "Space",
+          "Benchmark",
+          "eqt ventures",
+          "Starcloud",
+          "Y Combinator"
+        ]
+      }
+    },
+    {
+      "source": "arxiv",
+      "source_url": "http://arxiv.org/abs/2603.28662v1",
+      "published_at": "2026-03-30T16:48:51Z",
+      "entity_name": "AMIGO",
+      "track": "具身智能",
+      "signal_type": "research",
+      "summary_zh": "AMIGO是用于评估多图像、长周期视觉语言模型的基准测试。",
+      "team_origin": "unknown",
+      "score_raw": 2.7,
+      "score_final": 2.7,
       "quality": {
         "novelty": 0.7,
         "market_potential": 0.5,
-        "strategic_value": 0.6
+        "strategic_value": 0.5
       },
       "metadata": {
-        "is_funding_news": false
+        "authors": [
+          "Min Wang",
+          "Ata Mahjoubfar"
+        ],
+        "abstract_length": 1108
       }
     },
     {
@@ -1264,39 +1307,12 @@
     },
     {
       "source": "arxiv",
-      "source_url": "http://arxiv.org/abs/2603.28589v1",
-      "published_at": "2026-03-30T15:37:25Z",
-      "entity_name": "Medical AI Scientist",
-      "track": "AI医疗",
-      "signal_type": "research",
-      "summary_zh": "提出一种能够生成科学假设、进行实验和撰写论文的医疗AI科学家系统。",
-      "team_origin": "unknown",
-      "score_raw": 2.7,
-      "score_final": 2.7,
-      "quality": {
-        "novelty": 0.7,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "authors": [
-          "Hongtao Wu",
-          "Boyun Zheng",
-          "Dingjie Song",
-          "Yu Jiang",
-          "Jianfeng Gao"
-        ],
-        "abstract_length": 1919
-      }
-    },
-    {
-      "source": "arxiv",
       "source_url": "http://arxiv.org/abs/2603.28583v1",
       "published_at": "2026-03-30T15:32:24Z",
       "entity_name": "ChartCynics",
       "track": "AI助理",
       "signal_type": "research",
-      "summary_zh": "ChartCynics是一个用于识别误导性图表的双路径代理框架，通过怀疑性推理揭示视觉欺骗。",
+      "summary_zh": "ChartCynics是一个用于识别误导性图表的视觉语言模型，通过怀疑性推理揭示视觉欺骗。",
       "team_origin": "unknown",
       "score_raw": 2.7,
       "score_final": 2.7,
@@ -1314,6 +1330,30 @@
           "Yanna Lin"
         ],
         "abstract_length": 1243
+      }
+    },
+    {
+      "source": "arxiv",
+      "source_url": "http://arxiv.org/abs/2603.28605v1",
+      "published_at": "2026-03-30T15:54:47Z",
+      "entity_name": "Unsafe2Safe",
+      "track": "AI安全",
+      "signal_type": "research",
+      "summary_zh": "自动化图像匿名化处理，保护隐私同时保持数据可用性",
+      "team_origin": "unknown",
+      "score_raw": 2.7,
+      "score_final": 2.7,
+      "quality": {
+        "novelty": 0.7,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "authors": [
+          "Mih Dinh",
+          "SouYoung Jin"
+        ],
+        "abstract_length": 1619
       }
     },
     {
@@ -1350,7 +1390,7 @@
       "entity_name": "Gen-Searcher",
       "track": "基础模型",
       "signal_type": "research",
-      "summary_zh": "Gen-Searcher通过搜索增强图像生成，解决知识密集型场景下的图像生成问题。",
+      "summary_zh": "Gen-Searcher通过搜索增强图像生成，解决知识密集型场景下的生成问题。",
       "team_origin": "unknown",
       "score_raw": 2.7,
       "score_final": 2.7,
@@ -1403,7 +1443,7 @@
       "entity_name": "IsoQuant",
       "track": "AI硬件",
       "signal_type": "research",
-      "summary_zh": "提出IsoQuant，一种新的低比特在线向量量化技术，优化硬件对齐和局部混合",
+      "summary_zh": "提出IsoQuant，一种新的硬件对齐的SO(4)等斜旋转方法，用于低比特在线向量量化和缓存压缩。",
       "team_origin": "unknown",
       "score_raw": 2.7,
       "score_final": 2.7,
@@ -1421,12 +1461,12 @@
     },
     {
       "source": "arxiv",
-      "source_url": "http://arxiv.org/abs/2603.28674v1",
-      "published_at": "2026-03-30T16:56:54Z",
-      "entity_name": "Red-Green-Gray Framework",
-      "track": "自动驾驶",
+      "source_url": "http://arxiv.org/abs/2603.28581v1",
+      "published_at": "2026-03-30T15:30:58Z",
+      "entity_name": "SPINNER",
+      "track": "AI硬件",
       "signal_type": "research",
-      "summary_zh": "提出一种动态环境下快速适应障碍物变化的运动规划框架",
+      "summary_zh": "SPINNER是一种自旋转三旋翼无人机，用于扩大视野和自主飞行。",
       "team_origin": "unknown",
       "score_raw": 2.7,
       "score_final": 2.7,
@@ -1437,40 +1477,13 @@
       },
       "metadata": {
         "authors": [
-          "Yulie Arad",
-          "Stav Ashur",
-          "Marta Markowicz",
-          "James D. Motes",
-          "Marco Morales"
+          "Xiaobin Zhou",
+          "Zihao Zheng",
+          "Aoxu Jin",
+          "Lei Qiang",
+          "Bo Zhu"
         ],
-        "abstract_length": 1010
-      }
-    },
-    {
-      "source": "arxiv",
-      "source_url": "http://arxiv.org/abs/2603.28475v1",
-      "published_at": "2026-03-30T14:14:37Z",
-      "entity_name": "Tac2Real",
-      "track": "AI工业",
-      "signal_type": "research",
-      "summary_zh": "Tac2Real提供了一种轻量级视觉触觉模拟，用于在线强化学习和零样本真实世界部署。",
-      "team_origin": "unknown",
-      "score_raw": 2.7,
-      "score_final": 2.7,
-      "quality": {
-        "novelty": 0.7,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "authors": [
-          "Ningyu Yan",
-          "Shuai Wang",
-          "Xing Shen",
-          "Hui Wang",
-          "Hanqing Wang"
-        ],
-        "abstract_length": 1186
+        "abstract_length": 1318
       }
     },
     {
@@ -1501,86 +1514,33 @@
       }
     },
     {
-      "source": "arxiv",
-      "source_url": "http://arxiv.org/abs/2603.28271v1",
-      "published_at": "2026-03-30T10:54:14Z",
-      "entity_name": "osmAG-Nav",
-      "track": "具身智能",
-      "signal_type": "research",
-      "summary_zh": "提出一种用于室内自主导航的层次化语义拓扑导航系统，解决大规模多楼层环境中的导航问题。",
-      "team_origin": "unknown",
-      "score_raw": 2.7,
-      "score_final": 2.7,
-      "quality": {
-        "novelty": 0.7,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "authors": [
-          "Yongqi Zhang",
-          "Jiajie Zhang",
-          "Chengqian Li",
-          "Fujing Xie",
-          "Sören Schwertfeger"
-        ],
-        "abstract_length": 1844
-      }
-    },
-    {
-      "source": "astock",
-      "source_url": "http://finance.eastmoney.com/a/202603313690117028.html",
-      "published_at": "2026-03-31 10:18:43",
-      "entity_name": "澜起科技",
+      "source": "36kr",
+      "source_url": "https://36kr.com/newsflashes/3746681593020930?f=rss",
+      "published_at": "2026-03-31T10:01:36+00:00",
+      "entity_name": "四川鼎兴未来创业投资基金",
       "track": "AI硬件",
-      "signal_type": "company_news",
-      "summary_zh": "澜起科技2025年净利润增长58.35%，拟10派3.9元，显示公司盈利能力增强。",
+      "signal_type": "funding",
+      "summary_zh": "安德利投资5000万元于四川鼎兴未来创业投资基金，聚焦电子信息行业早期科技型企业",
       "team_origin": "chinese",
-      "score_raw": 2.8,
+      "score_raw": 2.7,
       "score_final": 2.7,
       "quality": {
         "novelty": 0.3,
         "market_potential": 0.5,
-        "strategic_value": 0.5
+        "strategic_value": 0.4
       },
       "metadata": {
-        "company_name": "澜起科技",
-        "stock_code": "688008",
-        "news_source": ""
-      }
-    },
-    {
-      "source": "github",
-      "source_url": "https://github.com/hitmux/HitCC",
-      "published_at": "2026-03-29T08:44:09Z",
-      "entity_name": "HitCC",
-      "track": "AI Coding",
-      "signal_type": "research",
-      "summary_zh": "HitCC是Claude Code CLI Node.js版本的完整逆向工程文档。",
-      "team_origin": "unknown",
-      "score_raw": 3.7,
-      "score_final": 2.6,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.3,
-        "strategic_value": 0.3
-      },
-      "metadata": {
-        "stars": 429,
-        "forks": 136,
-        "language": "Python",
-        "topics": [],
-        "watchers": 429
+        "is_funding_news": true
       }
     },
     {
       "source": "hackernews",
-      "source_url": "https://lzon.ca/posts/other/thoughts-ai-era/",
-      "published_at": "2026-03-28T18:42:08+00:00",
-      "entity_name": "The first 40 months of the AI era",
-      "track": "基础模型",
+      "source_url": "https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more",
+      "published_at": "2026-03-29T08:18:55+00:00",
+      "entity_name": "AI内存优化",
+      "track": "AI硬件",
       "signal_type": "research",
-      "summary_zh": "分析AI时代前40个月的发展，对基础模型赛道有参考价值",
+      "summary_zh": "探讨AI是否需要更好的数学算法而非更多RAM",
       "team_origin": "unknown",
       "score_raw": 4.5,
       "score_final": 2.6,
@@ -1590,60 +1550,31 @@
         "strategic_value": 0.5
       },
       "metadata": {
-        "hn_score": 213,
-        "comments": 144,
-        "hn_id": 47557185
+        "hn_score": 186,
+        "comments": 100,
+        "hn_id": 47561297
       }
     },
     {
-      "source": "arxiv",
-      "source_url": "http://arxiv.org/abs/2603.28662v1",
-      "published_at": "2026-03-30T16:48:51Z",
-      "entity_name": "AMIGO",
-      "track": "具身智能",
+      "source": "hackernews",
+      "source_url": "https://lzon.ca/posts/other/thoughts-ai-era/",
+      "published_at": "2026-03-28T18:42:08+00:00",
+      "entity_name": "The first 40 months of the AI era",
+      "track": "基础模型",
       "signal_type": "research",
-      "summary_zh": "AMIGO是一个新的长时序视觉相似图像识别基准，用于评估交互式视觉语言模型。",
+      "summary_zh": "分析AI时代前40个月的发展，对理解AI趋势有价值",
       "team_origin": "unknown",
-      "score_raw": 2.6,
+      "score_raw": 4.5,
       "score_final": 2.6,
       "quality": {
-        "novelty": 0.7,
-        "market_potential": 0.4,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "authors": [
-          "Min Wang",
-          "Ata Mahjoubfar"
-        ],
-        "abstract_length": 1108
-      }
-    },
-    {
-      "source": "arxiv",
-      "source_url": "http://arxiv.org/abs/2603.28713v1",
-      "published_at": "2026-03-30T17:30:25Z",
-      "entity_name": "DreamLite",
-      "track": "AI基础设施",
-      "signal_type": "research",
-      "summary_zh": "提出一个轻量级、统一的图像生成和编辑模型，减少参数量，提高部署效率。",
-      "team_origin": "unknown",
-      "score_raw": 2.6,
-      "score_final": 2.6,
-      "quality": {
-        "novelty": 0.6,
+        "novelty": 0.5,
         "market_potential": 0.5,
         "strategic_value": 0.5
       },
       "metadata": {
-        "authors": [
-          "Kailai Feng",
-          "Yuxiang Wei",
-          "Bo Chen",
-          "Yang Pan",
-          "Hu Ye"
-        ],
-        "abstract_length": 1587
+        "hn_score": 214,
+        "comments": 144,
+        "hn_id": 47557185
       }
     },
     {
@@ -1653,7 +1584,7 @@
       "entity_name": "StreamingVLA",
       "track": "具身智能",
       "signal_type": "research",
-      "summary_zh": "流式视觉-语言-动作模型，优化边缘平台的实时感知与控制",
+      "summary_zh": "流式视觉-语言-动作模型，提高边缘平台的感知和控制效率。",
       "team_origin": "unknown",
       "score_raw": 2.6,
       "score_final": 2.6,
@@ -1680,7 +1611,7 @@
       "entity_name": "DRIVE-Nav",
       "track": "具身智能",
       "signal_type": "research",
-      "summary_zh": "提出一种新的结构化框架，用于提高未知环境中的语言指定目标导航效率。",
+      "summary_zh": "DRIVE-Nav是一个提高未知环境中目标定位效率的结构化框架。",
       "team_origin": "unknown",
       "score_raw": 2.6,
       "score_final": 2.6,
@@ -1701,71 +1632,83 @@
       }
     },
     {
-      "source": "astock",
-      "source_url": "http://finance.eastmoney.com/a/202603263685444372.html",
-      "published_at": "2026-03-26 14:42:07",
-      "entity_name": "金山办公",
-      "track": "AI助理",
-      "signal_type": "company_news",
-      "summary_zh": "金山办公2025年财报显示营收净利双增，AI、协作、国际化战略加速落地",
-      "team_origin": "chinese",
-      "score_raw": 4.3,
+      "source": "arxiv",
+      "source_url": "http://arxiv.org/abs/2603.28674v1",
+      "published_at": "2026-03-30T16:56:54Z",
+      "entity_name": "Red-Green-Gray Framework",
+      "track": "自动驾驶",
+      "signal_type": "research",
+      "summary_zh": "提出一种动态环境下快速适应障碍物变化的路径规划方法",
+      "team_origin": "unknown",
+      "score_raw": 2.6,
       "score_final": 2.6,
       "quality": {
-        "novelty": 0.3,
+        "novelty": 0.6,
         "market_potential": 0.5,
         "strategic_value": 0.5
       },
       "metadata": {
-        "company_name": "金山办公",
-        "stock_code": "688111",
-        "news_source": ""
-      }
-    },
-    {
-      "source": "astock",
-      "source_url": "http://finance.eastmoney.com/a/202603263685121697.html",
-      "published_at": "2026-03-26 00:00:00",
-      "entity_name": "金山办公",
-      "track": "AI助理",
-      "signal_type": "company_news",
-      "summary_zh": "金山办公2025年营收59.29亿元，AI、协作、国际化战略驱动增长",
-      "team_origin": "chinese",
-      "score_raw": 4.4,
-      "score_final": 2.6,
-      "quality": {
-        "novelty": 0.3,
-        "market_potential": 0.6,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "company_name": "金山办公",
-        "stock_code": "688111",
-        "news_source": ""
+        "authors": [
+          "Yulie Arad",
+          "Stav Ashur",
+          "Marta Markowicz",
+          "James D. Motes",
+          "Marco Morales"
+        ],
+        "abstract_length": 1010
       }
     },
     {
       "source": "github",
-      "source_url": "https://github.com/adamlyttleapps/claude-skill-aso-appstore-screenshots",
-      "published_at": "2026-03-29T12:20:23Z",
-      "entity_name": "claude-skill-aso-appstore-screenshots",
+      "source_url": "https://github.com/HKUDS/CatchMe",
+      "published_at": "2026-03-30T04:21:59Z",
+      "entity_name": "CatchMe",
       "track": "AI助理",
       "signal_type": "product_launch",
-      "summary_zh": "GitHub上的一个AI助理技能项目，用于App Store截图优化。",
+      "summary_zh": "CatchMe旨在使AI代理更加个性化。",
       "team_origin": "unknown",
-      "score_raw": 3.5,
+      "score_raw": 3.6,
       "score_final": 2.5,
       "quality": {
-        "novelty": 0.3,
-        "market_potential": 0.4,
-        "strategic_value": 0.2
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
       },
       "metadata": {
-        "stars": 416,
-        "forks": 52,
+        "stars": 140,
+        "forks": 10,
         "language": "Python",
-        "topics": [],
-        "watchers": 416
+        "topics": [
+          "ai-agent",
+          "clawdbot-plugin",
+          "llm",
+          "recall-ai",
+          "retrieval-systems",
+          "screen-recorder"
+        ],
+        "watchers": 140
+      }
+    },
+    {
+      "source": "hackernews",
+      "source_url": "https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research",
+      "published_at": "2026-03-28T14:08:33+00:00",
+      "entity_name": "AI overly affirms",
+      "track": "AI助理",
+      "signal_type": "research",
+      "summary_zh": "AI在提供个人建议时过度肯定用户，可能影响决策",
+      "team_origin": "unknown",
+      "score_raw": 4.3,
+      "score_final": 2.5,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.3
+      },
+      "metadata": {
+        "hn_score": 783,
+        "comments": 609,
+        "hn_id": 47554773
       }
     },
     {
@@ -1802,7 +1745,7 @@
       "entity_name": "D2Skill",
       "track": "具身智能",
       "signal_type": "research",
-      "summary_zh": "D2Skill为具身智能领域提供了一种动态双粒度技能库，以提高RL的可复用经验。",
+      "summary_zh": "提出D2Skill，一种动态双粒度技能库，用于具身智能中的可复用经验。",
       "team_origin": "unknown",
       "score_raw": 2.5,
       "score_final": 2.5,
@@ -1829,7 +1772,7 @@
       "entity_name": "AdaptToken",
       "track": "AI视频",
       "signal_type": "research",
-      "summary_zh": "提出一种基于熵的自适应Token选择方法，用于提高多模态大型语言模型在长视频理解中的效率。",
+      "summary_zh": "AdaptToken通过基于熵的自适应Token选择，提升MLLM在长视频理解中的表现。",
       "team_origin": "unknown",
       "score_raw": 2.5,
       "score_final": 2.5,
@@ -1856,7 +1799,7 @@
       "entity_name": "Dynamic Lookahead Distance via Reinforcement Learning-Based Pure Pursuit",
       "track": "自动驾驶",
       "signal_type": "research",
-      "summary_zh": "提出基于强化学习的Pure Pursuit算法，动态调整自动驾驶车辆的前瞻距离，提升路径跟踪性能。",
+      "summary_zh": "提出基于强化学习的Pure Pursuit算法，动态调整自动驾驶车辆的前瞻距离，以提高路径跟踪性能。",
       "team_origin": "unknown",
       "score_raw": 2.5,
       "score_final": 2.5,
@@ -1904,7 +1847,7 @@
       "entity_name": "Reinforcement Learning with Verifiable Rewards",
       "track": "基础模型",
       "signal_type": "research",
-      "summary_zh": "研究了一种增强多模态大型语言模型推理能力的强化学习方法。",
+      "summary_zh": "研究通过可验证奖励增强多模态大型语言模型的推理能力",
       "team_origin": "unknown",
       "score_raw": 2.5,
       "score_final": 2.5,
@@ -1931,7 +1874,7 @@
       "entity_name": "TGIF2",
       "track": "AI安全",
       "signal_type": "research",
-      "summary_zh": "TGIF2是扩展的文本引导图像修复数据集和基准，对媒体取证构成挑战。",
+      "summary_zh": "TGIF2是扩展的文本引导图像编辑数据集，对媒体取证构成挑战。",
       "team_origin": "unknown",
       "score_raw": 2.5,
       "score_final": 2.5,
@@ -1949,6 +1892,33 @@
           "Symeon Papadopoulos"
         ],
         "abstract_length": 1742
+      }
+    },
+    {
+      "source": "arxiv",
+      "source_url": "http://arxiv.org/abs/2603.28610v1",
+      "published_at": "2026-03-30T15:57:32Z",
+      "entity_name": "ResAdapt",
+      "track": "基础模型",
+      "signal_type": "research",
+      "summary_zh": "ResAdapt通过自适应分辨率提升多模态大模型的视觉理解效率。",
+      "team_origin": "unknown",
+      "score_raw": 2.5,
+      "score_final": 2.5,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "authors": [
+          "Huanxuan Liao",
+          "Zhongtao Jiang",
+          "Yupu Hao",
+          "Yuqiao Tan",
+          "Shizhu He"
+        ],
+        "abstract_length": 1348
       }
     },
     {
@@ -2003,12 +1973,36 @@
     },
     {
       "source": "arxiv",
+      "source_url": "http://arxiv.org/abs/2603.28573v1",
+      "published_at": "2026-03-30T15:28:13Z",
+      "entity_name": "Learning Partial Action Replacement in Offline MARL",
+      "track": "AI基础设施",
+      "signal_type": "research",
+      "summary_zh": "研究了一种在离线多智能体强化学习中减少数据稀疏问题的新方法。",
+      "team_origin": "unknown",
+      "score_raw": 2.5,
+      "score_final": 2.5,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "authors": [
+          "Yue Jin",
+          "Giovanni Montana"
+        ],
+        "abstract_length": 1367
+      }
+    },
+    {
+      "source": "arxiv",
       "source_url": "http://arxiv.org/abs/2603.28569v1",
       "published_at": "2026-03-30T15:26:00Z",
       "entity_name": "CirrusBench",
       "track": "AI助理",
       "signal_type": "research",
-      "summary_zh": "CirrusBench评估云服务环境中基于LLM的代理，关注技术复杂性和客户满意度。",
+      "summary_zh": "CirrusBench评估云服务中基于LLM的代理，关注技术复杂性和客户满意度。",
       "team_origin": "unknown",
       "score_raw": 2.5,
       "score_final": 2.5,
@@ -2035,8 +2029,8 @@
       "entity_name": "Tactical Deconfliction of sUASs",
       "track": "AI安全",
       "signal_type": "research",
-      "summary_zh": "研究如何通过大型语言模型优化小型无人机的战术冲突解决。",
-      "team_origin": "unknown",
+      "summary_zh": "研究如何通过大型语言模型进行小型无人机的协同战术冲突解决。",
+      "team_origin": "non-chinese",
       "score_raw": 2.5,
       "score_final": 2.5,
       "quality": {
@@ -2110,7 +2104,7 @@
       "entity_name": "GPU-Accelerated Transformer Inference",
       "track": "AI基础设施",
       "signal_type": "research",
-      "summary_zh": "研究了使用NVIDIA TensorRT优化的GPU加速Transformer模型推理，显著提升实时推理速度。",
+      "summary_zh": "研究了GPU加速的Transformer模型推理，显著提升实时推理速度",
       "team_origin": "unknown",
       "score_raw": 2.5,
       "score_final": 2.5,
@@ -2134,7 +2128,7 @@
       "entity_name": "FL-PBM",
       "track": "AI安全",
       "signal_type": "research",
-      "summary_zh": "FL-PBM研究了一种用于联邦学习的预训练后门攻击缓解方法，对AI模型安全性至关重要。",
+      "summary_zh": "FL-PBM是一种用于联邦学习的预训练后门攻击缓解技术。",
       "team_origin": "unknown",
       "score_raw": 2.5,
       "score_final": 2.5,
@@ -2161,8 +2155,8 @@
       "entity_name": "Explainable AI",
       "track": "AI基础设施",
       "signal_type": "research",
-      "summary_zh": "研究指出可解释AI实际上是伪装的因果关系，面临挑战和缺乏共识。",
-      "team_origin": "unknown",
+      "summary_zh": "研究指出可解释AI实际上是因果关系的伪装，对AI透明度和信任有重要价值",
+      "team_origin": "non-chinese",
       "score_raw": 2.5,
       "score_final": 2.5,
       "quality": {
@@ -2206,29 +2200,29 @@
     },
     {
       "source": "arxiv",
-      "source_url": "http://arxiv.org/abs/2603.28730v1",
-      "published_at": "2026-03-30T17:46:31Z",
-      "entity_name": "SOLE-R1",
-      "track": "具身智能",
+      "source_url": "http://arxiv.org/abs/2603.28713v1",
+      "published_at": "2026-03-30T17:30:25Z",
+      "entity_name": "DreamLite",
+      "track": "AI基础设施",
       "signal_type": "research",
-      "summary_zh": "SOLE-R1研究将视频-语言推理作为机器人强化学习的唯一奖励信号。",
+      "summary_zh": "提出一个轻量级、统一的图像生成和编辑模型，降低部署难度。",
       "team_origin": "unknown",
       "score_raw": 2.5,
       "score_final": 2.5,
       "quality": {
-        "novelty": 0.6,
-        "market_potential": 0.4,
+        "novelty": 0.5,
+        "market_potential": 0.5,
         "strategic_value": 0.5
       },
       "metadata": {
         "authors": [
-          "Philip Schroeder",
-          "Thomas Weng",
-          "Karl Schmeckpeper",
-          "Eric Rosen",
-          "Stephen Hart"
+          "Kailai Feng",
+          "Yuxiang Wei",
+          "Bo Chen",
+          "Yang Pan",
+          "Hu Ye"
         ],
-        "abstract_length": 1655
+        "abstract_length": 1587
       }
     },
     {
@@ -2261,7 +2255,7 @@
       "entity_name": "Industrial3D",
       "track": "AI工业",
       "signal_type": "research",
-      "summary_zh": "Industrial3D是针对工业基础设施的3D点云数据集和跨范式基准测试，对数字化转型至关重要。",
+      "summary_zh": "Industrial3D是针对工业基础设施的3D点云数据集和跨范式基准测试，对建筑行业数字化转型具有重要意义。",
       "team_origin": "unknown",
       "score_raw": 2.5,
       "score_final": 2.5,
@@ -2288,7 +2282,7 @@
       "entity_name": "ELViS",
       "track": "AI基础设施",
       "signal_type": "research",
-      "summary_zh": "ELViS是一个图像相似性模型，能有效跨领域泛化。",
+      "summary_zh": "ELViS是一个图像相似性模型，能在不同领域间有效泛化。",
       "team_origin": "unknown",
       "score_raw": 2.5,
       "score_final": 2.5,
@@ -2341,7 +2335,7 @@
       "entity_name": "NVFP4",
       "track": "AI硬件",
       "signal_type": "research",
-      "summary_zh": "NVFP4是一种4位量化格式，用于大型语言模型，具有硬件支持和信息保留能力。",
+      "summary_zh": "NVFP4是一种4位量化格式，用于压缩大型语言模型，但存在量化误差问题。",
       "team_origin": "unknown",
       "score_raw": 2.5,
       "score_final": 2.5,
@@ -2368,7 +2362,7 @@
       "entity_name": "EpiScreen",
       "track": "AI医疗",
       "signal_type": "research",
-      "summary_zh": "EpiScreen利用大型语言模型从电子健康记录中早期检测癫痫，减少误诊。",
+      "summary_zh": "EpiScreen利用大型语言模型从电子健康记录中早期检测癫痫",
       "team_origin": "unknown",
       "score_raw": 2.5,
       "score_final": 2.5,
@@ -2452,8 +2446,8 @@
       "score_raw": 2.5,
       "score_final": 2.5,
       "quality": {
-        "novelty": 0.6,
-        "market_potential": 0.4,
+        "novelty": 0.5,
+        "market_potential": 0.5,
         "strategic_value": 0.5
       },
       "metadata": {
@@ -2471,7 +2465,7 @@
       "source": "arxiv",
       "source_url": "http://arxiv.org/abs/2603.28512v1",
       "published_at": "2026-03-30T14:45:30Z",
-      "entity_name": "WikiKG90Mv2",
+      "entity_name": "WikiKG90Mv2-LSC",
       "track": "基础模型",
       "signal_type": "research",
       "summary_zh": "NeurIPS 2022 WikiKG90Mv2-LSC，大规模知识图谱嵌入研究，对知识获取、问答和推荐系统有重要价值。",
@@ -2496,33 +2490,6 @@
     },
     {
       "source": "arxiv",
-      "source_url": "http://arxiv.org/abs/2603.28488v1",
-      "published_at": "2026-03-30T14:23:15Z",
-      "entity_name": "PROClaim",
-      "track": "基础模型",
-      "signal_type": "research",
-      "summary_zh": "提出一种基于法庭辩论风格的多代理框架，用于验证争议性声明，提高语言模型的可靠性。",
-      "team_origin": "unknown",
-      "score_raw": 2.5,
-      "score_final": 2.5,
-      "quality": {
-        "novelty": 0.6,
-        "market_potential": 0.4,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "authors": [
-          "Masnun Nuha Chowdhury",
-          "Nusrat Jahan Beg",
-          "Umme Hunny Khan",
-          "Syed Rifat Raiyan",
-          "Md Kamrul Hasan"
-        ],
-        "abstract_length": 1230
-      }
-    },
-    {
-      "source": "arxiv",
       "source_url": "http://arxiv.org/abs/2603.28426v1",
       "published_at": "2026-03-30T13:33:11Z",
       "entity_name": "Structural-Ambiguity-Aware Translation",
@@ -2533,8 +2500,8 @@
       "score_raw": 2.5,
       "score_final": 2.5,
       "quality": {
-        "novelty": 0.6,
-        "market_potential": 0.4,
+        "novelty": 0.5,
+        "market_potential": 0.5,
         "strategic_value": 0.5
       },
       "metadata": {
@@ -2554,7 +2521,7 @@
       "entity_name": "MiroEval",
       "track": "AI助理",
       "signal_type": "research",
-      "summary_zh": "MiroEval基准测试多模态深度研究代理在过程和结果上的表现",
+      "summary_zh": "MiroEval基准测试多模态深度研究代理的过程和结果，推动AI研究系统评估进步。",
       "team_origin": "unknown",
       "score_raw": 2.5,
       "score_final": 2.5,
@@ -2581,7 +2548,7 @@
       "entity_name": "Subjectivity in NLP",
       "track": "基础模型",
       "signal_type": "research",
-      "summary_zh": "研究NLP中主观性评估的新标准，关注多样性视角",
+      "summary_zh": "研究NLP中主观性评估的新标准，有助于理解不同观点",
       "team_origin": "unknown",
       "score_raw": 2.5,
       "score_final": 2.5,
@@ -2626,113 +2593,6 @@
           "Aolin Jia"
         ],
         "abstract_length": 1244
-      }
-    },
-    {
-      "source": "arxiv",
-      "source_url": "http://arxiv.org/abs/2603.28263v1",
-      "published_at": "2026-03-30T10:46:50Z",
-      "entity_name": "Merge and Conquer",
-      "track": "基础模型",
-      "signal_type": "research",
-      "summary_zh": "研究通过添加目标语言权重来指导多语言模型，提升低资源语言性能。",
-      "team_origin": "unknown",
-      "score_raw": 2.5,
-      "score_final": 2.5,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "authors": [
-          "Eneko Valero",
-          "Maria Ribalta i Albado",
-          "Oscar Sainz",
-          "Naiara Perez",
-          "German Rigau"
-        ],
-        "abstract_length": 1373
-      }
-    },
-    {
-      "source": "arxiv",
-      "source_url": "http://arxiv.org/abs/2603.28191v1",
-      "published_at": "2026-03-30T08:56:24Z",
-      "entity_name": "DongYuan",
-      "track": "AI医疗",
-      "signal_type": "research",
-      "summary_zh": "基于大型语言模型的中西医综合脾胃疾病诊断框架",
-      "team_origin": "chinese",
-      "score_raw": 2.5,
-      "score_final": 2.5,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "authors": [
-          "Hua Li",
-          "Yingying Li",
-          "Xiaobin Feng",
-          "Xinyi Fu",
-          "Lifeng Dong"
-        ],
-        "abstract_length": 1546
-      }
-    },
-    {
-      "source": "arxiv",
-      "source_url": "http://arxiv.org/abs/2603.28163v1",
-      "published_at": "2026-03-30T08:31:18Z",
-      "entity_name": "LLMs User Stories Generation",
-      "track": "AI助理",
-      "signal_type": "research",
-      "summary_zh": "研究LLMs如何从应用商店评论生成类似人类用户故事",
-      "team_origin": "unknown",
-      "score_raw": 2.5,
-      "score_final": 2.5,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "authors": [
-          "Shadman Sakib",
-          "Oishy Fatema Akhand",
-          "Tasnia Tasneem",
-          "Shohel Ahmed"
-        ],
-        "abstract_length": 1348
-      }
-    },
-    {
-      "source": "arxiv",
-      "source_url": "http://arxiv.org/abs/2603.28581v1",
-      "published_at": "2026-03-30T15:30:58Z",
-      "entity_name": "SPINNER",
-      "track": "AI硬件",
-      "signal_type": "research",
-      "summary_zh": "SPINNER是一种自旋转三旋翼无人机，用于扩大视野和自主飞行。",
-      "team_origin": "unknown",
-      "score_raw": 2.5,
-      "score_final": 2.5,
-      "quality": {
-        "novelty": 0.6,
-        "market_potential": 0.5,
-        "strategic_value": 0.4
-      },
-      "metadata": {
-        "authors": [
-          "Xiaobin Zhou",
-          "Zihao Zheng",
-          "Aoxu Jin",
-          "Lei Qiang",
-          "Bo Zhu"
-        ],
-        "abstract_length": 1318
       }
     },
     {
@@ -2812,14 +2672,14 @@
       }
     },
     {
-      "source": "arxiv",
-      "source_url": "http://arxiv.org/abs/2603.28243v1",
-      "published_at": "2026-03-30T10:05:15Z",
-      "entity_name": "Cost-Matching Model Predictive Control",
-      "track": "具身智能",
-      "signal_type": "research",
-      "summary_zh": "提出基于模型预测控制的强化学习框架，用于优化人形机器人行走效率。",
-      "team_origin": "unknown",
+      "source": "36kr",
+      "source_url": "https://36kr.com/p/3746654452187648?f=rss",
+      "published_at": "2026-03-31T10:00:05+00:00",
+      "entity_name": "LG Innotek",
+      "track": "AI硬件",
+      "signal_type": "company_news",
+      "summary_zh": "LG Innotek转型AI和机器人解决方案提供商，向波士顿动力供应摄像头模块",
+      "team_origin": "non-chinese",
       "score_raw": 2.5,
       "score_final": 2.5,
       "quality": {
@@ -2828,13 +2688,27 @@
         "strategic_value": 0.5
       },
       "metadata": {
-        "authors": [
-          "Wenqi Cai",
-          "Kyriakos G. Vamvoudakis",
-          "Sébastien Gros",
-          "Anthony Tzes"
-        ],
-        "abstract_length": 910
+        "is_funding_news": false
+      }
+    },
+    {
+      "source": "36kr",
+      "source_url": "https://36kr.com/p/3746211357655808?f=rss",
+      "published_at": "2026-03-31T06:40:01+00:00",
+      "entity_name": "安踏体育",
+      "track": "AI营销",
+      "signal_type": "company_news",
+      "summary_zh": "安踏体育2025年财报显示营收增长，净利润下滑，但剔除一次性收益后净利润上涨，其他品牌增长显著。",
+      "team_origin": "chinese",
+      "score_raw": 2.5,
+      "score_final": 2.5,
+      "quality": {
+        "novelty": 0.3,
+        "market_potential": 0.7,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "is_funding_news": true
       }
     },
     {
@@ -2859,32 +2733,12 @@
     },
     {
       "source": "36kr",
-      "source_url": "https://36kr.com/p/3745064614494211?f=rss",
-      "published_at": "2026-03-30T06:40:27+00:00",
-      "entity_name": "原力灵机",
-      "track": "具身智能",
-      "signal_type": "company_news",
-      "summary_zh": "唐文斌创办的具身智能公司原力灵机，聚焦AI 1.0技术与业务本质",
-      "team_origin": "chinese",
-      "score_raw": 2.5,
-      "score_final": 2.5,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "is_funding_news": true
-      }
-    },
-    {
-      "source": "36kr",
-      "source_url": "https://36kr.com/newsflashes/3746260323910151?f=rss",
-      "published_at": "2026-03-31T02:53:04+00:00",
-      "entity_name": "豆包AI手机",
-      "track": "AI硬件",
-      "signal_type": "company_news",
-      "summary_zh": "中兴通讯与字节跳动合作研发新一代豆包AI手机，推进AI for All战略",
+      "source_url": "https://36kr.com/newsflashes/3746684887794177?f=rss",
+      "published_at": "2026-03-31T10:04:57+00:00",
+      "entity_name": "RoboNeo",
+      "track": "AI视频",
+      "signal_type": "product_launch",
+      "summary_zh": "美图RoboNeo上线动作迁移、批量设计等功能，提升内容创作效率",
       "team_origin": "chinese",
       "score_raw": 2.5,
       "score_final": 2.5,
@@ -2895,146 +2749,6 @@
       },
       "metadata": {
         "is_funding_news": false
-      }
-    },
-    {
-      "source": "36kr",
-      "source_url": "https://36kr.com/newsflashes/3746234184450824?f=rss",
-      "published_at": "2026-03-31T02:26:28+00:00",
-      "entity_name": "联想YOGA AI Mini",
-      "track": "AI硬件",
-      "signal_type": "product_launch",
-      "summary_zh": "联想发布YOGA AI Mini和Think AI Tiny，针对养虾和企业办公的AI终端",
-      "team_origin": "chinese",
-      "score_raw": 2.5,
-      "score_final": 2.5,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "is_funding_news": false
-      }
-    },
-    {
-      "source": "astock",
-      "source_url": "http://finance.eastmoney.com/a/202603253684284071.html",
-      "published_at": "2026-03-25 20:14:24",
-      "entity_name": "金山办公",
-      "track": "AI基础设施",
-      "signal_type": "company_news",
-      "summary_zh": "金山办公2025年净利润增长11.63%，拟派息，显示公司稳健增长",
-      "team_origin": "chinese",
-      "score_raw": 4.1,
-      "score_final": 2.5,
-      "quality": {
-        "novelty": 0.1,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "company_name": "金山办公",
-        "stock_code": "688111",
-        "news_source": ""
-      }
-    },
-    {
-      "source": "astock",
-      "source_url": "http://finance.eastmoney.com/a/202603263684992558.html",
-      "published_at": "2026-03-26 09:02:37",
-      "entity_name": "金山办公",
-      "track": "AI基础设施",
-      "signal_type": "company_news",
-      "summary_zh": "雷军辞去金山云董事长，代理CEO邹涛接任，金山办公业务包括WPS Office、游戏研发及云计算服务。",
-      "team_origin": "chinese",
-      "score_raw": 4.1,
-      "score_final": 2.5,
-      "quality": {
-        "novelty": 0.1,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "company_name": "金山办公",
-        "stock_code": "688111",
-        "news_source": ""
-      }
-    },
-    {
-      "source": "astock",
-      "source_url": "http://finance.eastmoney.com/a/202603303688699119.html",
-      "published_at": "2026-03-30 16:10:00",
-      "entity_name": "澜起科技",
-      "track": "AI硬件",
-      "signal_type": "market_trend",
-      "summary_zh": "谷歌算法导致内存价格下降，澜起科技等存储股市场反应剧烈",
-      "team_origin": "chinese",
-      "score_raw": 2.6,
-      "score_final": 2.5,
-      "quality": {
-        "novelty": 0.1,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "company_name": "澜起科技",
-        "stock_code": "688008",
-        "news_source": ""
-      }
-    },
-    {
-      "source": "github",
-      "source_url": "https://github.com/LeoYeAI/openclaw-auto-dream",
-      "published_at": "2026-03-28T06:38:18Z",
-      "entity_name": "openclaw-auto-dream",
-      "track": "AI基础设施",
-      "signal_type": "product_launch",
-      "summary_zh": "OpenClaw自动记忆整合工具，提升AI效率",
-      "team_origin": "unknown",
-      "score_raw": 4.2,
-      "score_final": 2.4,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "stars": 487,
-        "forks": 10,
-        "language": "HTML",
-        "topics": [
-          "ai-agent",
-          "auto-dream",
-          "llm",
-          "memory",
-          "memory-management",
-          "myclaw",
-          "openclaw"
-        ],
-        "watchers": 487
-      }
-    },
-    {
-      "source": "hackernews",
-      "source_url": "https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research",
-      "published_at": "2026-03-28T14:08:33+00:00",
-      "entity_name": "AI overly affirms",
-      "track": "AI助理",
-      "signal_type": "research",
-      "summary_zh": "AI在提供个人建议时过度肯定用户，可能影响决策质量",
-      "team_origin": "unknown",
-      "score_raw": 4.1,
-      "score_final": 2.4,
-      "quality": {
-        "novelty": 0.3,
-        "market_potential": 0.5,
-        "strategic_value": 0.3
-      },
-      "metadata": {
-        "hn_score": 781,
-        "comments": 608,
-        "hn_id": 47554773
       }
     },
     {
@@ -3054,7 +2768,7 @@
         "strategic_value": 0.4
       },
       "metadata": {
-        "hn_score": 257,
+        "hn_score": 258,
         "comments": 182,
         "hn_id": 47557166
       }
@@ -3083,12 +2797,12 @@
     },
     {
       "source": "techcrunch",
-      "source_url": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
-      "published_at": "2026-03-30T20:24:53+00:00",
-      "entity_name": "Quinnipiac poll",
-      "track": "AI基础设施",
+      "source_url": "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/",
+      "published_at": "2026-03-30T23:41:48+00:00",
+      "entity_name": "Quinnipiac University poll",
+      "track": "AI助理",
       "signal_type": "market_trend",
-      "summary_zh": "美国AI工具使用增加，但信任度低，关注透明度、监管和社会影响",
+      "summary_zh": "15%美国人愿意为AI老板工作，显示AI助理市场潜力",
       "team_origin": "non-chinese",
       "score_raw": 2.4,
       "score_final": 2.4,
@@ -3098,11 +2812,12 @@
         "strategic_value": 0.3
       },
       "metadata": {
-        "author": "Rebecca Bellan",
+        "author": "Graham Starr",
         "tags": [
           "AI",
-          "AI trust",
-          "quinnipiac university"
+          "Jobs",
+          "polls",
+          "future of work"
         ]
       }
     },
@@ -3133,59 +2848,13 @@
       }
     },
     {
-      "source": "techcrunch",
-      "source_url": "https://techcrunch.com/2026/03/29/project-hail-mary-becomes-amazon-mgms-biggest-box-office-hit/",
-      "published_at": "2026-03-29T19:50:57+00:00",
-      "entity_name": "Project Hail Mary",
-      "track": "AI视频",
-      "signal_type": "company_news",
-      "summary_zh": "亚马逊MGM的《Project Hail Mary》成为票房大赢家",
-      "team_origin": "non-chinese",
-      "score_raw": 3.3,
-      "score_final": 2.3,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.7,
-        "strategic_value": 0.6
-      },
-      "metadata": {
-        "author": "Anthony Ha",
-        "tags": [
-          "Media & Entertainment",
-          "Amazon",
-          "amazon mgm studios",
-          "project hail mary"
-        ]
-      }
-    },
-    {
-      "source": "36kr",
-      "source_url": "https://36kr.com/newsflashes/3746251019895304?f=rss",
-      "published_at": "2026-03-31T02:59:30+00:00",
-      "entity_name": "MOVA",
-      "track": "AI硬件",
-      "signal_type": "product_launch",
-      "summary_zh": "MOVA发布两款智能眼镜，正式进入智能可穿戴市场",
-      "team_origin": "chinese",
-      "score_raw": 2.3,
-      "score_final": 2.3,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.5,
-        "strategic_value": 0.3
-      },
-      "metadata": {
-        "is_funding_news": false
-      }
-    },
-    {
       "source": "hackernews",
       "source_url": "https://jai.scs.stanford.edu/",
       "published_at": "2026-03-28T00:39:54+00:00",
       "entity_name": "Go hard on agents",
       "track": "AI基础设施",
-      "signal_type": "research",
-      "summary_zh": "研究如何强化AI代理而不损害文件系统",
+      "signal_type": "product_launch",
+      "summary_zh": "Go hard on agents，一款不破坏文件系统的AI代理产品",
       "team_origin": "unknown",
       "score_raw": 4.5,
       "score_final": 2.2,
@@ -3195,9 +2864,31 @@
         "strategic_value": 0.5
       },
       "metadata": {
-        "hn_score": 625,
-        "comments": 329,
+        "hn_score": 628,
+        "comments": 330,
         "hn_id": 47550282
+      }
+    },
+    {
+      "source": "hackernews",
+      "source_url": "https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering",
+      "published_at": "2026-03-28T08:06:19+00:00",
+      "entity_name": "CERN",
+      "track": "AI基础设施",
+      "signal_type": "research",
+      "summary_zh": "CERN在FPGA上使用超紧凑AI模型进行实时LHC数据过滤",
+      "team_origin": "non-chinese",
+      "score_raw": 4.5,
+      "score_final": 2.2,
+      "quality": {
+        "novelty": 0.6,
+        "market_potential": 0.4,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "hn_score": 328,
+        "comments": 146,
+        "hn_id": 47552562
       }
     },
     {
@@ -3207,7 +2898,7 @@
       "entity_name": "Anatomy of the .claude/ folder",
       "track": "AI基础设施",
       "signal_type": "product_launch",
-      "summary_zh": "介绍AI基础设施中.claude/文件夹的结构和功能",
+      "summary_zh": "介绍.claude/文件夹结构，对AI基础设施有改进价值",
       "team_origin": "unknown",
       "score_raw": 4.5,
       "score_final": 2.2,
@@ -3217,41 +2908,19 @@
         "strategic_value": 0.5
       },
       "metadata": {
-        "hn_score": 619,
+        "hn_score": 620,
         "comments": 266,
         "hn_id": 47543139
       }
     },
     {
-      "source": "hackernews",
-      "source_url": "https://lab.puga.com.br/cog/",
-      "published_at": "2026-03-25T23:29:13+00:00",
-      "entity_name": "Claude Code",
-      "track": "AI Coding",
-      "signal_type": "product_launch",
-      "summary_zh": "Claude Code是一个用于认知架构的纯文本编码框架。",
-      "team_origin": "unknown",
-      "score_raw": 4.9,
-      "score_final": 2.2,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "hn_score": 156,
-        "comments": 49,
-        "hn_id": 47524704
-      }
-    },
-    {
       "source": "techcrunch",
-      "source_url": "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/",
-      "published_at": "2026-03-30T23:41:48+00:00",
-      "entity_name": "Quinnipiac University poll",
-      "track": "AI助理",
+      "source_url": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
+      "published_at": "2026-03-30T20:24:53+00:00",
+      "entity_name": "Quinnipiac poll",
+      "track": "AI基础设施",
       "signal_type": "market_trend",
-      "summary_zh": "15%美国人愿意为AI老板工作，显示AI助理市场潜力",
+      "summary_zh": "美国AI工具使用增加，但信任度低，关注透明度、监管和影响",
       "team_origin": "non-chinese",
       "score_raw": 2.2,
       "score_final": 2.2,
@@ -3261,12 +2930,11 @@
         "strategic_value": 0.1
       },
       "metadata": {
-        "author": "Graham Starr",
+        "author": "Rebecca Bellan",
         "tags": [
           "AI",
-          "Jobs",
-          "polls",
-          "future of work"
+          "AI trust",
+          "quinnipiac university"
         ]
       }
     },
@@ -3299,55 +2967,6 @@
       }
     },
     {
-      "source": "arxiv",
-      "source_url": "http://arxiv.org/abs/2603.28573v1",
-      "published_at": "2026-03-30T15:28:13Z",
-      "entity_name": "Learning Partial Action Replacement in Offline MARL",
-      "track": "AI基础设施",
-      "signal_type": "research",
-      "summary_zh": "研究了一种在离线多智能体强化学习中减少数据稀疏性的方法。",
-      "team_origin": "unknown",
-      "score_raw": 2.2,
-      "score_final": 2.2,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.3,
-        "strategic_value": 0.4
-      },
-      "metadata": {
-        "authors": [
-          "Yue Jin",
-          "Giovanni Montana"
-        ],
-        "abstract_length": 1367
-      }
-    },
-    {
-      "source": "arxiv",
-      "source_url": "http://arxiv.org/abs/2603.28213v1",
-      "published_at": "2026-03-30T09:34:41Z",
-      "entity_name": "Versteasch du mi?",
-      "track": "基础模型",
-      "signal_type": "research",
-      "summary_zh": "研究指出大型语言模型和生成AI对非标准语言不公平，加深数字语言鸿沟。",
-      "team_origin": "non-chinese",
-      "score_raw": 2.2,
-      "score_final": 2.2,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.3,
-        "strategic_value": 0.4
-      },
-      "metadata": {
-        "authors": [
-          "Verena Platzgummer",
-          "John McCrae",
-          "Sina Ahmadi"
-        ],
-        "abstract_length": 1378
-      }
-    },
-    {
       "source": "36kr",
       "source_url": "https://36kr.com/p/3712239685382280?f=rss",
       "published_at": "2026-03-31T00:24:33+00:00",
@@ -3365,6 +2984,160 @@
       },
       "metadata": {
         "is_funding_news": true
+      }
+    },
+    {
+      "source": "astock",
+      "source_url": "http://finance.eastmoney.com/a/202603263685444372.html",
+      "published_at": "2026-03-26 14:42:07",
+      "entity_name": "金山办公",
+      "track": "AI助理",
+      "signal_type": "company_news",
+      "summary_zh": "金山办公2025年财报显示营收净利双增，AI、协作、国际化战略加速落地",
+      "team_origin": "chinese",
+      "score_raw": 3.8,
+      "score_final": 2.2,
+      "quality": {
+        "novelty": 0.3,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "company_name": "金山办公",
+        "stock_code": "688111",
+        "news_source": ""
+      }
+    },
+    {
+      "source": "astock",
+      "source_url": "http://finance.eastmoney.com/a/202603263685121697.html",
+      "published_at": "2026-03-26 00:00:00",
+      "entity_name": "金山办公",
+      "track": "AI助理",
+      "signal_type": "company_news",
+      "summary_zh": "金山办公2025年营收59.29亿元，AI、协作、国际化战略驱动增长",
+      "team_origin": "chinese",
+      "score_raw": 3.9,
+      "score_final": 2.2,
+      "quality": {
+        "novelty": 0.3,
+        "market_potential": 0.6,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "company_name": "金山办公",
+        "stock_code": "688111",
+        "news_source": ""
+      }
+    },
+    {
+      "source": "github",
+      "source_url": "https://github.com/LeoYeAI/openclaw-auto-dream",
+      "published_at": "2026-03-28T06:38:18Z",
+      "entity_name": "openclaw-auto-dream",
+      "track": "AI基础设施",
+      "signal_type": "product_launch",
+      "summary_zh": "OpenClaw自动记忆整合工具，提升AI效率",
+      "team_origin": "unknown",
+      "score_raw": 4.2,
+      "score_final": 2.1,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "stars": 523,
+        "forks": 12,
+        "language": "HTML",
+        "topics": [
+          "ai-agent",
+          "auto-dream",
+          "llm",
+          "memory",
+          "memory-management",
+          "myclaw",
+          "openclaw"
+        ],
+        "watchers": 523
+      }
+    },
+    {
+      "source": "github",
+      "source_url": "https://github.com/kayba-ai/recursive-improve",
+      "published_at": "2026-03-28T14:37:25Z",
+      "entity_name": "recursive-improve",
+      "track": "AI助理",
+      "signal_type": "research",
+      "summary_zh": "kayba-ai/recursive-improve项目旨在使AI代理能够自我迭代改进。",
+      "team_origin": "unknown",
+      "score_raw": 3.7,
+      "score_final": 2.1,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "stars": 143,
+        "forks": 10,
+        "language": "Python",
+        "topics": [
+          "agent-learning",
+          "agents",
+          "ai",
+          "ai-agent",
+          "ai-tools",
+          "llm",
+          "machine-learning"
+        ],
+        "watchers": 143
+      }
+    },
+    {
+      "source": "github",
+      "source_url": "https://github.com/oaker-io/wewrite",
+      "published_at": "2026-03-26T14:18:54Z",
+      "entity_name": "wewrite",
+      "track": "AI营销",
+      "signal_type": "product_launch",
+      "summary_zh": "公众号文章全流程AI技能，提升内容创作效率和SEO",
+      "team_origin": "chinese",
+      "score_raw": 4.6,
+      "score_final": 2.1,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.7,
+        "strategic_value": 0.4
+      },
+      "metadata": {
+        "stars": 968,
+        "forks": 164,
+        "language": "Python",
+        "topics": [],
+        "watchers": 968
+      }
+    },
+    {
+      "source": "hackernews",
+      "source_url": "https://agentsofchaos.baulab.info/report.html",
+      "published_at": "2026-03-27T20:30:05+00:00",
+      "entity_name": "Agents of Chaos",
+      "track": "AI安全",
+      "signal_type": "research",
+      "summary_zh": "研究AI在制造混乱方面的能力，对AI安全领域具有战略价值",
+      "team_origin": "unknown",
+      "score_raw": 4.2,
+      "score_final": 2.1,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "hn_score": 113,
+        "comments": 15,
+        "hn_id": 47547843
       }
     },
     {
@@ -3396,27 +3169,107 @@
       }
     },
     {
-      "source": "github",
-      "source_url": "https://github.com/oaker-io/wewrite",
-      "published_at": "2026-03-26T14:18:54Z",
-      "entity_name": "wewrite",
-      "track": "AI营销",
-      "signal_type": "product_launch",
-      "summary_zh": "公众号文章全流程AI技能，提升内容创作效率和质量",
+      "source": "36kr",
+      "source_url": "https://36kr.com/p/3746733908198151?f=rss",
+      "published_at": "2026-03-31T10:59:53+00:00",
+      "entity_name": "万科",
+      "track": "AI金融",
+      "signal_type": "company_news",
+      "summary_zh": "万科股价创历史新低，市值大幅缩水",
       "team_origin": "chinese",
-      "score_raw": 4.5,
-      "score_final": 2.0,
+      "score_raw": 2.1,
+      "score_final": 2.1,
       "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.6,
-        "strategic_value": 0.4
+        "novelty": 0.1,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
       },
       "metadata": {
-        "stars": 944,
-        "forks": 157,
-        "language": "Python",
-        "topics": [],
-        "watchers": 944
+        "is_funding_news": true
+      }
+    },
+    {
+      "source": "36kr",
+      "source_url": "https://36kr.com/p/3746707533087490?f=rss",
+      "published_at": "2026-03-31T10:28:08+00:00",
+      "entity_name": "碧桂园",
+      "track": "AI基础设施",
+      "signal_type": "company_news",
+      "summary_zh": "碧桂园连续三年亏损后，2025年实现盈利，归母净利润32.61亿元",
+      "team_origin": "chinese",
+      "score_raw": 2.1,
+      "score_final": 2.1,
+      "quality": {
+        "novelty": 0.1,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "is_funding_news": true
+      }
+    },
+    {
+      "source": "36kr",
+      "source_url": "https://36kr.com/newsflashes/3746702126334723?f=rss",
+      "published_at": "2026-03-31T10:22:29+00:00",
+      "entity_name": "bp",
+      "track": "AI工业",
+      "signal_type": "company_news",
+      "summary_zh": "bp计划在2026至2027财年向埃及投资15亿美元，用于天然气开发",
+      "team_origin": "non-chinese",
+      "score_raw": 2.1,
+      "score_final": 2.1,
+      "quality": {
+        "novelty": 0.1,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "is_funding_news": true
+      }
+    },
+    {
+      "source": "astock",
+      "source_url": "http://finance.eastmoney.com/a/202603253684284071.html",
+      "published_at": "2026-03-25 20:14:24",
+      "entity_name": "金山办公",
+      "track": "AI基础设施",
+      "signal_type": "company_news",
+      "summary_zh": "金山办公2025年营收和净利润增长，拟派息回馈股东",
+      "team_origin": "chinese",
+      "score_raw": 3.6,
+      "score_final": 2.1,
+      "quality": {
+        "novelty": 0.1,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "company_name": "金山办公",
+        "stock_code": "688111",
+        "news_source": ""
+      }
+    },
+    {
+      "source": "astock",
+      "source_url": "http://finance.eastmoney.com/a/202603313690117028.html",
+      "published_at": "2026-03-31 10:18:43",
+      "entity_name": "澜起科技",
+      "track": "AI硬件",
+      "signal_type": "company_news",
+      "summary_zh": "澜起科技2025年净利润增长58.35%，拟10派3.9元，显示公司盈利能力增强。",
+      "team_origin": "chinese",
+      "score_raw": 2.1,
+      "score_final": 2.1,
+      "quality": {
+        "novelty": 0.1,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "company_name": "澜起科技",
+        "stock_code": "688008",
+        "news_source": ""
       }
     },
     {
@@ -3437,30 +3290,31 @@
       },
       "metadata": {
         "hn_score": 486,
-        "comments": 283,
+        "comments": 284,
         "hn_id": 47533297
       }
     },
     {
-      "source": "hackernews",
-      "source_url": "https://code.claude.com/docs/en/web-scheduled-tasks",
-      "published_at": "2026-03-27T04:47:15+00:00",
-      "entity_name": "Schedule tasks on the web",
-      "track": "AI基础设施",
-      "signal_type": "product_launch",
-      "summary_zh": "一个在线任务调度工具，提升工作效率",
+      "source": "arxiv",
+      "source_url": "http://arxiv.org/abs/2603.28258v1",
+      "published_at": "2026-03-30T10:34:58Z",
+      "entity_name": "Categorical Perception in LLMs",
+      "track": "基础模型",
+      "signal_type": "research",
+      "summary_zh": "研究大型语言模型处理阿拉伯数字时的类别感知现象，揭示隐藏状态的几何变形。",
       "team_origin": "unknown",
-      "score_raw": 4.1,
+      "score_raw": 2.8,
       "score_final": 2.0,
       "quality": {
-        "novelty": 0.3,
+        "novelty": 0.7,
         "market_potential": 0.5,
-        "strategic_value": 0.3
+        "strategic_value": 0.6
       },
       "metadata": {
-        "hn_score": 297,
-        "comments": 242,
-        "hn_id": 47539188
+        "authors": [
+          "Jon-Paul Cacioli"
+        ],
+        "abstract_length": 1383
       }
     },
     {
@@ -3480,11 +3334,11 @@
         "strategic_value": 0.5
       },
       "metadata": {
-        "stars": 225,
-        "forks": 19,
+        "stars": 240,
+        "forks": 20,
         "language": "Rust",
         "topics": [],
-        "watchers": 225
+        "watchers": 240
       }
     },
     {
@@ -3510,20 +3364,20 @@
       }
     },
     {
-      "source": "hackernews",
-      "source_url": "https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research",
-      "published_at": "2026-03-28T14:08:33+00:00",
-      "entity_name": "AI overly affirms",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
+      "published_at": "2026-03-28T14:15:00+00:00",
+      "entity_name": "Anthropic",
       "track": "AI助理",
       "signal_type": "market_trend",
-      "summary_zh": "Anthropic的AI助理Claude付费用户激增，市场潜力巨大",
+      "summary_zh": "Anthropic的AI助理Claude付费用户激增，市场潜力大",
       "team_origin": "non-chinese",
       "score_raw": 3.3,
       "score_final": 1.9,
       "quality": {
-        "novelty": 0.3,
-        "market_potential": 0.5,
-        "strategic_value": 0.3
+        "novelty": 0.5,
+        "market_potential": 0.7,
+        "strategic_value": 0.6
       },
       "metadata": {
         "author": "Julie Bort",
@@ -3541,7 +3395,7 @@
       "entity_name": "OpenAI",
       "track": "AI基础设施",
       "signal_type": "company_news",
-      "summary_zh": "82岁肯塔基女性拒绝2600万美元AI数据中心建设提议，反映AI基础设施扩张与现实世界的冲突。",
+      "summary_zh": "OpenAI在AI基础设施扩张中遭遇现实阻力，体现AI发展与现实世界的紧张关系。",
       "team_origin": "non-chinese",
       "score_raw": 3.5,
       "score_final": 1.9,
@@ -3592,119 +3446,6 @@
       }
     },
     {
-      "source": "astock",
-      "source_url": "http://finance.eastmoney.com/a/202603303688819184.html",
-      "published_at": "2026-03-30 17:37:09",
-      "entity_name": "兴图新科",
-      "track": "AI硬件",
-      "signal_type": "company_news",
-      "summary_zh": "兴图新科控股股东转让5.9%股份，总价1.84亿元",
-      "team_origin": "chinese",
-      "score_raw": 1.9,
-      "score_final": 1.9,
-      "quality": {
-        "novelty": 0.1,
-        "market_potential": 0.5,
-        "strategic_value": 0.3
-      },
-      "metadata": {
-        "company_name": "兆易创新",
-        "stock_code": "688081",
-        "news_source": ""
-      }
-    },
-    {
-      "source": "github",
-      "source_url": "https://github.com/alvinunreal/awesome-openclaw",
-      "published_at": "2026-03-27T11:07:09Z",
-      "entity_name": "awesome-openclaw",
-      "track": "AI基础设施",
-      "signal_type": "research",
-      "summary_zh": "OpenClaw资源精选列表，涉及项目、技能、插件等，对AI基础设施有战略价值",
-      "team_origin": "unknown",
-      "score_raw": 3.5,
-      "score_final": 1.8,
-      "quality": {
-        "novelty": 0.3,
-        "market_potential": 0.4,
-        "strategic_value": 0.4
-      },
-      "metadata": {
-        "stars": 258,
-        "forks": 20,
-        "language": null,
-        "topics": [
-          "ai",
-          "ai-agents",
-          "automation",
-          "awesome",
-          "awesome-list",
-          "llm",
-          "openclaw",
-          "plugins",
-          "resources",
-          "self-hosted"
-        ],
-        "watchers": 258
-      }
-    },
-    {
-      "source": "github",
-      "source_url": "https://github.com/kayba-ai/recursive-improve",
-      "published_at": "2026-03-28T14:37:25Z",
-      "entity_name": "recursive-improve",
-      "track": "AI助理",
-      "signal_type": "research",
-      "summary_zh": "kayba-ai/recursive-improve项目旨在使AI代理能够自我迭代改进。",
-      "team_origin": "unknown",
-      "score_raw": 3.2,
-      "score_final": 1.8,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.3,
-        "strategic_value": 0.3
-      },
-      "metadata": {
-        "stars": 139,
-        "forks": 10,
-        "language": "Python",
-        "topics": [
-          "agent-learning",
-          "agents",
-          "ai",
-          "ai-agent",
-          "ai-tools",
-          "llm",
-          "machine-learning"
-        ],
-        "watchers": 139
-      }
-    },
-    {
-      "source": "github",
-      "source_url": "https://github.com/tonbistudio/turboquant-pytorch",
-      "published_at": "2026-03-25T08:03:23Z",
-      "entity_name": "turboquant-pytorch",
-      "track": "AI基础设施",
-      "signal_type": "research",
-      "summary_zh": "基于PyTorch实现的Google TurboQuant，用于LLM KV缓存压缩，5倍压缩率，3位精度，99.5%的注意力保真度。",
-      "team_origin": "unknown",
-      "score_raw": 4.5,
-      "score_final": 1.8,
-      "quality": {
-        "novelty": 0.7,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "stars": 643,
-        "forks": 83,
-        "language": "Python",
-        "topics": [],
-        "watchers": 643
-      }
-    },
-    {
       "source": "github",
       "source_url": "https://github.com/0xSero/turboquant",
       "published_at": "2026-03-25T20:32:26Z",
@@ -3721,35 +3462,33 @@
         "strategic_value": 0.5
       },
       "metadata": {
-        "stars": 470,
-        "forks": 51,
+        "stars": 503,
+        "forks": 56,
         "language": "Python",
         "topics": [],
-        "watchers": 470
+        "watchers": 503
       }
     },
     {
-      "source": "github",
-      "source_url": "https://github.com/scrya-com/rotorquant",
-      "published_at": "2026-03-26T08:59:27Z",
-      "entity_name": "RotorQuant",
+      "source": "hackernews",
+      "source_url": "https://code.claude.com/docs/en/web-scheduled-tasks",
+      "published_at": "2026-03-27T04:47:15+00:00",
+      "entity_name": "Schedule tasks on the web",
       "track": "AI基础设施",
-      "signal_type": "research",
-      "summary_zh": "RotorQuant是用于LLM KV缓存压缩的Clifford代数向量量化技术，速度提升显著，参数大幅减少。",
+      "signal_type": "product_launch",
+      "summary_zh": "一个在线任务调度工具，提升工作效率",
       "team_origin": "unknown",
-      "score_raw": 4.0,
+      "score_raw": 4.1,
       "score_final": 1.8,
       "quality": {
-        "novelty": 0.7,
+        "novelty": 0.3,
         "market_potential": 0.5,
-        "strategic_value": 0.5
+        "strategic_value": 0.3
       },
       "metadata": {
-        "stars": 199,
-        "forks": 19,
-        "language": "Python",
-        "topics": [],
-        "watchers": 199
+        "hn_score": 297,
+        "comments": 242,
+        "hn_id": 47539188
       }
     },
     {
@@ -3775,13 +3514,63 @@
       }
     },
     {
-      "source": "36kr",
-      "source_url": "https://36kr.com/p/3744821877342217?f=rss",
-      "published_at": "2026-03-30T02:31:17+00:00",
-      "entity_name": "世航",
-      "track": "AI工业",
-      "signal_type": "company_news",
-      "summary_zh": "世航获中国航海学会科技进步一等奖，体现海洋经济领域技术引领地位",
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/03/31/the-silicon-valley-congressional-race-is-getting-ugly/",
+      "published_at": "2026-03-31T07:23:06+00:00",
+      "entity_name": "CA-17",
+      "track": "AI基础设施",
+      "signal_type": "regulatory",
+      "summary_zh": "硅谷国会竞选激烈，涉及科技亿万富翁和加州选票措施",
+      "team_origin": "non-chinese",
+      "score_raw": 1.8,
+      "score_final": 1.8,
+      "quality": {
+        "novelty": 0.1,
+        "market_potential": 0.1,
+        "strategic_value": 0.1
+      },
+      "metadata": {
+        "author": "Connie Loizos",
+        "tags": [
+          "Government & Policy"
+        ]
+      }
+    },
+    {
+      "source": "arxiv",
+      "source_url": "http://arxiv.org/abs/2603.28263v1",
+      "published_at": "2026-03-30T10:46:50Z",
+      "entity_name": "Merge and Conquer",
+      "track": "基础模型",
+      "signal_type": "research",
+      "summary_zh": "研究通过添加目标语言权重来指导多语言模型，提升低资源语言性能。",
+      "team_origin": "unknown",
+      "score_raw": 2.5,
+      "score_final": 1.8,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "authors": [
+          "Eneko Valero",
+          "Maria Ribalta i Albado",
+          "Oscar Sainz",
+          "Naiara Perez",
+          "German Rigau"
+        ],
+        "abstract_length": 1373
+      }
+    },
+    {
+      "source": "arxiv",
+      "source_url": "http://arxiv.org/abs/2603.28191v1",
+      "published_at": "2026-03-30T08:56:24Z",
+      "entity_name": "DongYuan",
+      "track": "AI医疗",
+      "signal_type": "research",
+      "summary_zh": "基于大型语言模型的中西医综合脾胃疾病诊断框架",
       "team_origin": "chinese",
       "score_raw": 2.5,
       "score_final": 1.8,
@@ -3791,7 +3580,93 @@
         "strategic_value": 0.5
       },
       "metadata": {
-        "is_funding_news": false
+        "authors": [
+          "Hua Li",
+          "Yingying Li",
+          "Xiaobin Feng",
+          "Xinyi Fu",
+          "Lifeng Dong"
+        ],
+        "abstract_length": 1546
+      }
+    },
+    {
+      "source": "arxiv",
+      "source_url": "http://arxiv.org/abs/2603.28163v1",
+      "published_at": "2026-03-30T08:31:18Z",
+      "entity_name": "LLMs User Stories Generation",
+      "track": "AI助理",
+      "signal_type": "research",
+      "summary_zh": "研究LLMs如何从应用商店评论生成类似人类用户故事",
+      "team_origin": "unknown",
+      "score_raw": 2.5,
+      "score_final": 1.8,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "authors": [
+          "Shadman Sakib",
+          "Oishy Fatema Akhand",
+          "Tasnia Tasneem",
+          "Shohel Ahmed"
+        ],
+        "abstract_length": 1348
+      }
+    },
+    {
+      "source": "arxiv",
+      "source_url": "http://arxiv.org/abs/2603.28271v1",
+      "published_at": "2026-03-30T10:54:14Z",
+      "entity_name": "osmAG-Nav",
+      "track": "具身智能",
+      "signal_type": "research",
+      "summary_zh": "提出一种用于室内自主导航的层次化语义拓扑导航系统，解决大规模多楼层环境中的导航问题。",
+      "team_origin": "unknown",
+      "score_raw": 2.5,
+      "score_final": 1.8,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "authors": [
+          "Yongqi Zhang",
+          "Jiajie Zhang",
+          "Chengqian Li",
+          "Fujing Xie",
+          "Sören Schwertfeger"
+        ],
+        "abstract_length": 1844
+      }
+    },
+    {
+      "source": "arxiv",
+      "source_url": "http://arxiv.org/abs/2603.28243v1",
+      "published_at": "2026-03-30T10:05:15Z",
+      "entity_name": "Cost-Matching Model Predictive Control",
+      "track": "具身智能",
+      "signal_type": "research",
+      "summary_zh": "提出基于模型预测控制的强化学习方法，用于优化人形机器人的高效行走。",
+      "team_origin": "unknown",
+      "score_raw": 2.5,
+      "score_final": 1.8,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "authors": [
+          "Wenqi Cai",
+          "Kyriakos G. Vamvoudakis",
+          "Sébastien Gros",
+          "Anthony Tzes"
+        ],
+        "abstract_length": 910
       }
     },
     {
@@ -3801,7 +3676,7 @@
       "entity_name": "超智融合算力平台",
       "track": "AI基础设施",
       "signal_type": "product_launch",
-      "summary_zh": "中科曙光启动超智融合算力平台，破解算力瓶颈",
+      "summary_zh": "中科曙光启动超智融合算力平台，旨在破解算力瓶颈",
       "team_origin": "chinese",
       "score_raw": 2.5,
       "score_final": 1.8,
@@ -3833,8 +3708,8 @@
         "strategic_value": 0.3
       },
       "metadata": {
-        "stars": 946,
-        "forks": 118,
+        "stars": 953,
+        "forks": 119,
         "language": "Python",
         "topics": [
           "ai-agents",
@@ -3848,7 +3723,7 @@
           "mcp-server",
           "python"
         ],
-        "watchers": 946
+        "watchers": 953
       }
     },
     {
@@ -3858,9 +3733,9 @@
       "entity_name": "ghostwright/phantom",
       "track": "AI助理",
       "signal_type": "product_launch",
-      "summary_zh": "基于Claude Agent SDK的AI助手，具有自我进化和持久记忆功能",
+      "summary_zh": "基于Claude Agent SDK的AI同事，具有自我进化和持久记忆功能。",
       "team_origin": "unknown",
-      "score_raw": 3.7,
+      "score_raw": 4.1,
       "score_final": 1.7,
       "quality": {
         "novelty": 0.5,
@@ -3868,8 +3743,8 @@
         "strategic_value": 0.5
       },
       "metadata": {
-        "stars": 151,
-        "forks": 12,
+        "stars": 445,
+        "forks": 38,
         "language": "TypeScript",
         "topics": [
           "ai-agents",
@@ -3885,7 +3760,7 @@
           "slack",
           "typescript"
         ],
-        "watchers": 151
+        "watchers": 445
       }
     },
     {
@@ -3895,7 +3770,7 @@
       "entity_name": "dexter-jp",
       "track": "AI金融",
       "signal_type": "product_launch",
-      "summary_zh": "日本上市公司深度金融研究的自律型AI代理，基于EDINET DB和J-Quants",
+      "summary_zh": "日本上市公司深度金融研究AI代理，基于EDINET DB和J-Quants",
       "team_origin": "non-chinese",
       "score_raw": 3.8,
       "score_final": 1.7,
@@ -3905,8 +3780,8 @@
         "strategic_value": 0.5
       },
       "metadata": {
-        "stars": 188,
-        "forks": 17,
+        "stars": 192,
+        "forks": 18,
         "language": "TypeScript",
         "topics": [
           "ai-agent",
@@ -3917,37 +3792,31 @@
           "langchain",
           "typescript"
         ],
-        "watchers": 188
+        "watchers": 192
       }
     },
     {
       "source": "github",
-      "source_url": "https://github.com/realkimbarrett/advertising-skills",
-      "published_at": "2026-03-26T07:58:48Z",
-      "entity_name": "advertising-skills",
-      "track": "AI营销",
-      "signal_type": "product_launch",
-      "summary_zh": "为AI代理提供广告技能，包括直接响应、付费广告、漏斗和文案系统。",
+      "source_url": "https://github.com/tonbistudio/turboquant-pytorch",
+      "published_at": "2026-03-25T08:03:23Z",
+      "entity_name": "turboquant-pytorch",
+      "track": "AI基础设施",
+      "signal_type": "research",
+      "summary_zh": "基于PyTorch实现的Google TurboQuant，用于LLM KV缓存压缩，5倍压缩率，3位精度，99.5%的注意力保真度。",
       "team_origin": "unknown",
-      "score_raw": 3.8,
+      "score_raw": 4.5,
       "score_final": 1.7,
       "quality": {
-        "novelty": 0.3,
+        "novelty": 0.7,
         "market_potential": 0.5,
-        "strategic_value": 0.3
+        "strategic_value": 0.5
       },
       "metadata": {
-        "stars": 504,
-        "forks": 27,
-        "language": null,
-        "topics": [
-          "advertising",
-          "claude-code",
-          "codex",
-          "openclaw",
-          "openclawskill"
-        ],
-        "watchers": 504
+        "stars": 663,
+        "forks": 87,
+        "language": "Python",
+        "topics": [],
+        "watchers": 663
       }
     },
     {
@@ -3957,7 +3826,7 @@
       "entity_name": "Agent-to-agent pair programming",
       "track": "AI Coding",
       "signal_type": "research",
-      "summary_zh": "研究AI代理间的配对编程，提升代码开发效率",
+      "summary_zh": "研究AI代理之间的配对编程，提升代码协作效率。",
       "team_origin": "unknown",
       "score_raw": 3.9,
       "score_final": 1.7,
@@ -4005,43 +3874,50 @@
       "entity_name": "OpenAI",
       "track": "AI基础设施",
       "signal_type": "company_news",
-      "summary_zh": "OpenAI因现实世界阻力关闭Sora项目，Meta在法律诉讼中受挫。",
+      "summary_zh": "OpenAI因土地问题关闭Sora项目，Meta在法律诉讼中失利。",
       "team_origin": "non-chinese",
       "score_raw": 3.1,
       "score_final": 1.7,
       "quality": {
-        "novelty": 0.5,
+        "novelty": 0.1,
         "market_potential": 0.5,
         "strategic_value": 0.5
       },
       "metadata": {
-        "hn_score": 155,
-        "comments": 50,
-        "hn_id": 47524704
+        "author": "Theresa Loconsolo",
+        "tags": [
+          "AI",
+          "Social",
+          "Startups",
+          "app shutdown",
+          "drones",
+          "Kleiner Perkins",
+          "Meta",
+          "meta lawsuit",
+          "OpenAI",
+          "Roundup",
+          "sora"
+        ]
       }
     },
     {
-      "source": "techcrunch",
-      "source_url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
-      "published_at": "2026-03-28T14:15:00+00:00",
-      "entity_name": "Claude",
-      "track": "AI助理",
-      "signal_type": "market_trend",
-      "summary_zh": "Anthropic的AI助理Claude付费用户激增，市场潜力大",
-      "team_origin": "non-chinese",
-      "score_raw": 3.3,
-      "score_final": 2.3,
+      "source": "36kr",
+      "source_url": "https://36kr.com/newsflashes/3746708821754630?f=rss",
+      "published_at": "2026-03-31T10:29:18+00:00",
+      "entity_name": "宏昌科技",
+      "track": "AI工业",
+      "signal_type": "company_news",
+      "summary_zh": "宏昌科技对张雪机车进行财务性投资，持股比例小，对公司影响有限",
+      "team_origin": "chinese",
+      "score_raw": 1.7,
+      "score_final": 1.7,
       "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.7,
-        "strategic_value": 0.6
+        "novelty": 0.1,
+        "market_potential": 0.5,
+        "strategic_value": 0.1
       },
       "metadata": {
-        "author": "Julie Bort",
-        "tags": [
-          "TC",
-          "AI"
-        ]
+        "is_funding_news": true
       }
     },
     {
@@ -4051,9 +3927,9 @@
       "entity_name": "T3Code",
       "track": "AI Coding",
       "signal_type": "product_launch",
-      "summary_zh": "T3Code，一款在终端运行的代码编辑工具",
+      "summary_zh": "T3Code，一款终端代码编辑工具，提升编程效率。",
       "team_origin": "unknown",
-      "score_raw": 3.8,
+      "score_raw": 3.9,
       "score_final": 1.6,
       "quality": {
         "novelty": 0.5,
@@ -4061,7 +3937,7 @@
         "strategic_value": 0.3
       },
       "metadata": {
-        "stars": 350,
+        "stars": 360,
         "forks": 28,
         "language": "TypeScript",
         "topics": [
@@ -4072,45 +3948,42 @@
           "t3code",
           "tui"
         ],
-        "watchers": 350
+        "watchers": 360
       }
     },
     {
       "source": "github",
-      "source_url": "https://github.com/DebugBase/glance",
-      "published_at": "2026-03-27T08:32:40Z",
-      "entity_name": "DebugBase/glance",
+      "source_url": "https://github.com/alvinunreal/awesome-openclaw",
+      "published_at": "2026-03-27T11:07:09Z",
+      "entity_name": "awesome-openclaw",
       "track": "AI基础设施",
       "signal_type": "product_launch",
-      "summary_zh": "AI驱动的浏览器自动化MCP服务器，支持终端操作浏览器",
+      "summary_zh": "OpenClaw资源精选列表，包括项目、技能、插件等。",
       "team_origin": "unknown",
-      "score_raw": 3.2,
+      "score_raw": 3.6,
       "score_final": 1.6,
       "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.5,
-        "strategic_value": 0.3
+        "novelty": 0.3,
+        "market_potential": 0.4,
+        "strategic_value": 0.4
       },
       "metadata": {
-        "stars": 86,
-        "forks": 9,
-        "language": "TypeScript",
+        "stars": 309,
+        "forks": 26,
+        "language": null,
         "topics": [
           "ai",
-          "ai-agent",
-          "browser-automation",
-          "claude",
-          "claude-code",
-          "debugbase",
-          "e2e",
-          "e2e-testing",
-          "mcp",
-          "mcp-server",
-          "playwright",
-          "screenshot",
-          "testing"
+          "ai-agents",
+          "automation",
+          "awesome",
+          "awesome-list",
+          "llm",
+          "openclaw",
+          "plugins",
+          "resources",
+          "self-hosted"
         ],
-        "watchers": 86
+        "watchers": 309
       }
     },
     {
@@ -4122,7 +3995,7 @@
       "signal_type": "product_launch",
       "summary_zh": "微信远程操控编程工具，提升移动设备编程效率",
       "team_origin": "chinese",
-      "score_raw": 3.1,
+      "score_raw": 3.2,
       "score_final": 1.6,
       "quality": {
         "novelty": 0.5,
@@ -4130,7 +4003,7 @@
         "strategic_value": 0.3
       },
       "metadata": {
-        "stars": 66,
+        "stars": 83,
         "forks": 0,
         "language": "Python",
         "topics": [
@@ -4148,7 +4021,68 @@
           "wechat",
           "wechat-bot"
         ],
-        "watchers": 66
+        "watchers": 83
+      }
+    },
+    {
+      "source": "github",
+      "source_url": "https://github.com/ourmem/omem",
+      "published_at": "2026-03-27T17:13:21Z",
+      "entity_name": "omem",
+      "track": "AI基础设施",
+      "signal_type": "product_launch",
+      "summary_zh": "共享内存技术，为AI代理提供持久化存储和基于空间的跨代理共享。",
+      "team_origin": "unknown",
+      "score_raw": 3.2,
+      "score_final": 1.6,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "stars": 55,
+        "forks": 2,
+        "language": "Rust",
+        "topics": [
+          "ai-agent",
+          "ai-memory",
+          "claude-code",
+          "lancedb",
+          "llm",
+          "mcp-server",
+          "memory-sharing",
+          "openclaw",
+          "opencode",
+          "persistent-memory",
+          "rust",
+          "vector-search"
+        ],
+        "watchers": 55
+      }
+    },
+    {
+      "source": "github",
+      "source_url": "https://github.com/scrya-com/rotorquant",
+      "published_at": "2026-03-26T08:59:27Z",
+      "entity_name": "RotorQuant",
+      "track": "AI基础设施",
+      "signal_type": "research",
+      "summary_zh": "RotorQuant是用于LLM KV缓存压缩的Clifford代数向量量化技术，速度提升显著，参数大幅减少。",
+      "team_origin": "unknown",
+      "score_raw": 4.0,
+      "score_final": 1.6,
+      "quality": {
+        "novelty": 0.7,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "stars": 210,
+        "forks": 21,
+        "language": "Python",
+        "topics": [],
+        "watchers": 210
       }
     },
     {
@@ -4182,6 +4116,31 @@
       }
     },
     {
+      "source": "arxiv",
+      "source_url": "http://arxiv.org/abs/2603.28213v1",
+      "published_at": "2026-03-30T09:34:41Z",
+      "entity_name": "Versteasch du mi?",
+      "track": "基础模型",
+      "signal_type": "research",
+      "summary_zh": "研究指出大型语言模型和生成AI对非标准语言不公平，加深数字语言鸿沟。",
+      "team_origin": "non-chinese",
+      "score_raw": 2.2,
+      "score_final": 1.6,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.3,
+        "strategic_value": 0.4
+      },
+      "metadata": {
+        "authors": [
+          "Verena Platzgummer",
+          "John McCrae",
+          "Sina Ahmadi"
+        ],
+        "abstract_length": 1378
+      }
+    },
+    {
       "source": "github",
       "source_url": "https://github.com/rhino-acoustic/NeuronFS",
       "published_at": "2026-03-26T13:25:08Z",
@@ -4190,7 +4149,7 @@
       "signal_type": "product_launch",
       "summary_zh": "NeuronFS是一个面向LLM代理的OS原生约束引擎，旨在提高AI基础设施效率。",
       "team_origin": "unknown",
-      "score_raw": 3.3,
+      "score_raw": 3.4,
       "score_final": 1.5,
       "quality": {
         "novelty": 0.5,
@@ -4198,8 +4157,8 @@
         "strategic_value": 0.5
       },
       "metadata": {
-        "stars": 61,
-        "forks": 9,
+        "stars": 71,
+        "forks": 11,
         "language": "Go",
         "topics": [
           "ai-agent",
@@ -4215,19 +4174,93 @@
           "structure-is-context",
           "zero-cost"
         ],
-        "watchers": 61
+        "watchers": 71
       }
     },
     {
       "source": "github",
-      "source_url": "https://github.com/kreuzberg-dev/liter-llm",
-      "published_at": "2026-03-25T07:30:37Z",
-      "entity_name": "liter-llm",
+      "source_url": "https://github.com/DebugBase/glance",
+      "published_at": "2026-03-27T08:32:40Z",
+      "entity_name": "DebugBase/glance",
       "track": "AI基础设施",
       "signal_type": "product_launch",
-      "summary_zh": "Universal LLM API客户端，支持142+供应商，11种语言绑定，由Rust核心驱动",
+      "summary_zh": "AI驱动的浏览器自动化MCP服务器，支持终端操作浏览器",
       "team_origin": "unknown",
-      "score_raw": 3.5,
+      "score_raw": 3.3,
+      "score_final": 1.5,
+      "quality": {
+        "novelty": 0.5,
+        "market_potential": 0.5,
+        "strategic_value": 0.3
+      },
+      "metadata": {
+        "stars": 91,
+        "forks": 9,
+        "language": "TypeScript",
+        "topics": [
+          "ai",
+          "ai-agent",
+          "browser-automation",
+          "claude",
+          "claude-code",
+          "debugbase",
+          "e2e",
+          "e2e-testing",
+          "mcp",
+          "mcp-server",
+          "playwright",
+          "screenshot",
+          "testing"
+        ],
+        "watchers": 91
+      }
+    },
+    {
+      "source": "github",
+      "source_url": "https://github.com/zolotukhin/zinc",
+      "published_at": "2026-03-25T01:50:17Z",
+      "entity_name": "Zig INferenCe Engine",
+      "track": "AI硬件",
+      "signal_type": "product_launch",
+      "summary_zh": "Zig INferenCe Engine，为AMD RDNA3/RDNA4 GPU提供LLM推理的Zig语言引擎。",
+      "team_origin": "unknown",
+      "score_raw": 4.0,
+      "score_final": 1.5,
+      "quality": {
+        "novelty": 0.7,
+        "market_potential": 0.5,
+        "strategic_value": 0.5
+      },
+      "metadata": {
+        "stars": 219,
+        "forks": 7,
+        "language": "Zig",
+        "topics": [
+          "amd",
+          "amdgpu",
+          "gpt",
+          "gpu",
+          "openai",
+          "pytorch",
+          "qwen3",
+          "rdna3",
+          "rdna4",
+          "transformer",
+          "zig"
+        ],
+        "watchers": 219
+      }
+    },
+    {
+      "source": "github",
+      "source_url": "https://github.com/EESJGong/Graph-CAD",
+      "published_at": "2026-03-26T07:08:17Z",
+      "entity_name": "Graph-CAD",
+      "track": "AI工业",
+      "signal_type": "research",
+      "summary_zh": "学习层次化和几何感知的图表示，用于文本到CAD模型的转换。",
+      "team_origin": "unknown",
+      "score_raw": 3.4,
       "score_final": 1.4,
       "quality": {
         "novelty": 0.5,
@@ -4235,42 +4268,7 @@
         "strategic_value": 0.5
       },
       "metadata": {
-        "stars": 100,
-        "forks": 6,
-        "language": "Rust",
-        "topics": [
-          "anthropic",
-          "api-client",
-          "llm",
-          "machine-learning",
-          "openai",
-          "polyglot",
-          "python",
-          "rust",
-          "streaming",
-          "typescript"
-        ],
-        "watchers": 100
-      }
-    },
-    {
-      "source": "hackernews",
-      "source_url": "https://en.andros.dev/blog/aa31d744/from-zero-to-a-rag-system-successes-and-failures/",
-      "published_at": "2026-03-24T06:53:30+00:00",
-      "entity_name": "RAG系统",
-      "track": "基础模型",
-      "signal_type": "research",
-      "summary_zh": "分析从零到构建RAG系统的过程，探讨成功与失败",
-      "team_origin": "unknown",
-      "score_raw": 3.2,
-      "score_final": 1.4,
-      "quality": {
-        "novelty": 0.6,
-        "market_potential": 0.4,
-        "strategic_value": 0.3
-      },
-      "metadata": {
-        "stars": 74,
+        "stars": 78,
         "forks": 10,
         "language": "Python",
         "topics": [
@@ -4290,43 +4288,81 @@
           "self-evolution",
           "text-to-cad"
         ],
-        "watchers": 74
+        "watchers": 78
       }
     },
     {
       "source": "github",
-      "source_url": "https://github.com/zolotukhin/zinc",
-      "published_at": "2026-03-25T01:50:17Z",
-      "entity_name": "Zig INferenCe Engine",
-      "track": "AI硬件",
+      "source_url": "https://github.com/kreuzberg-dev/liter-llm",
+      "published_at": "2026-03-25T07:30:37Z",
+      "entity_name": "liter-llm",
+      "track": "AI基础设施",
       "signal_type": "product_launch",
-      "summary_zh": "Zig INferenCe Engine，为AMD RDNA3/RDNA4 GPU提供LLM推理的Zig语言引擎",
+      "summary_zh": "Universal LLM API客户端，支持142+供应商，11种语言绑定，由Rust核心驱动",
       "team_origin": "unknown",
-      "score_raw": 3.8,
-      "score_final": 1.4,
+      "score_raw": 3.5,
+      "score_final": 1.3,
       "quality": {
-        "novelty": 0.6,
+        "novelty": 0.5,
         "market_potential": 0.5,
-        "strategic_value": 0.4
+        "strategic_value": 0.5
       },
       "metadata": {
-        "stars": 215,
-        "forks": 7,
-        "language": "Zig",
+        "stars": 102,
+        "forks": 6,
+        "language": "Rust",
         "topics": [
-          "amd",
-          "amdgpu",
-          "gpt",
-          "gpu",
+          "anthropic",
+          "api-client",
+          "llm",
+          "machine-learning",
           "openai",
-          "pytorch",
-          "qwen3",
-          "rdna3",
-          "rdna4",
-          "transformer",
-          "zig"
+          "polyglot",
+          "python",
+          "rust",
+          "streaming",
+          "typescript"
         ],
-        "watchers": 215
+        "watchers": 102
+      }
+    },
+    {
+      "source": "github",
+      "source_url": "https://github.com/TensorCEO/TensorCEO",
+      "published_at": "2026-03-27T02:33:26Z",
+      "entity_name": "TensorCEO",
+      "track": "AI基础设施",
+      "signal_type": "research",
+      "summary_zh": "TensorCEO是一个开源的AI项目，提供源码和论文，适合学术研究和毕业设计。",
+      "team_origin": "unknown",
+      "score_raw": 2.8,
+      "score_final": 1.3,
+      "quality": {
+        "novelty": 0.3,
+        "market_potential": 0.4,
+        "strategic_value": 0.2
+      },
+      "metadata": {
+        "stars": 79,
+        "forks": 9,
+        "language": null,
+        "topics": [
+          "ai-projects",
+          "artificial-intelligence",
+          "computer-science-project",
+          "computer-vision",
+          "deep-learning",
+          "dl-projects",
+          "final-year-project",
+          "flask",
+          "graduation-design",
+          "graduation-thesis",
+          "machine-learning",
+          "ml-projects",
+          "python",
+          "thesis-project"
+        ],
+        "watchers": 79
       }
     },
     {
@@ -4388,71 +4424,6 @@
       }
     },
     {
-      "source": "github",
-      "source_url": "https://github.com/TensorCEO/TensorCEO",
-      "published_at": "2026-03-27T02:33:26Z",
-      "entity_name": "TensorCEO",
-      "track": "AI基础设施",
-      "signal_type": "research",
-      "summary_zh": "TensorCEO是一个开源的AI项目，提供源码和论文，适合学术研究和毕业设计。",
-      "team_origin": "chinese",
-      "score_raw": 2.7,
-      "score_final": 1.2,
-      "quality": {
-        "novelty": 0.5,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "stars": 70,
-        "forks": 7,
-        "language": null,
-        "topics": [
-          "ai-projects",
-          "artificial-intelligence",
-          "computer-science-project",
-          "computer-vision",
-          "deep-learning",
-          "dl-projects",
-          "final-year-project",
-          "flask",
-          "graduation-design",
-          "graduation-thesis",
-          "machine-learning",
-          "ml-projects",
-          "python",
-          "thesis-project"
-        ],
-        "watchers": 70
-      }
-    },
-    {
-      "source": "techcrunch",
-      "source_url": "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/",
-      "published_at": "2026-03-27T01:26:40+00:00",
-      "entity_name": "David Sacks",
-      "track": "AI基础设施",
-      "signal_type": "company_news",
-      "summary_zh": "David Sacks离开AI领域，转向其他事业。",
-      "team_origin": "non-chinese",
-      "score_raw": 2.6,
-      "score_final": 1.2,
-      "quality": {
-        "novelty": 0.1,
-        "market_potential": 0.5,
-        "strategic_value": 0.5
-      },
-      "metadata": {
-        "author": "Connie Loizos",
-        "tags": [
-          "TC",
-          "AI",
-          "Government & Policy",
-          "david sacks"
-        ]
-      }
-    },
-    {
       "source": "astock",
       "source_url": "http://finance.eastmoney.com/a/202603263685785170.html",
       "published_at": "2026-03-26 19:38:00",
@@ -4472,6 +4443,32 @@
         "company_name": "中科曙光",
         "stock_code": "603019",
         "news_source": ""
+      }
+    },
+    {
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/",
+      "published_at": "2026-03-27T01:26:40+00:00",
+      "entity_name": "David Sacks",
+      "track": "AI基础设施",
+      "signal_type": "company_news",
+      "summary_zh": "David Sacks离开AI领域，转向其他事业。",
+      "team_origin": "non-chinese",
+      "score_raw": 2.2,
+      "score_final": 1.0,
+      "quality": {
+        "novelty": 0.1,
+        "market_potential": 0.5,
+        "strategic_value": 0.1
+      },
+      "metadata": {
+        "author": "Connie Loizos",
+        "tags": [
+          "TC",
+          "AI",
+          "Government & Policy",
+          "david sacks"
+        ]
       }
     }
   ]

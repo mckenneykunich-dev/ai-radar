@@ -5,7 +5,7 @@
   2. 去重（按 source_url）
   3. LLM 评分 + 分类 + 摘要
   4. 跨源加分
-  5. 赛道聚合
+  5. 赛道聚合（含 LLM 赛道摘要 + source_breakdown）
   6. 写出 data/signals.json 和 data/tracks.json
 """
 
@@ -44,13 +44,19 @@ def main():
     print("\n[1/5] 采集各信源数据...")
 
     from scraper.sources import github_trending, hackernews, techcrunch, arxiv_ai
+    from scraper.sources import kr36, wechat_rss, astock_ai
 
-    for source_name, fetch_fn, kwargs in [
-        ("GitHub", github_trending.fetch, {"github_token": github_token}),
-        ("HackerNews", hackernews.fetch, {}),
-        ("TechCrunch", techcrunch.fetch, {}),
-        ("ArXiv", arxiv_ai.fetch, {}),
-    ]:
+    sources = [
+        ("GitHub",      github_trending.fetch, {"github_token": github_token}),
+        ("HackerNews",  hackernews.fetch,       {}),
+        ("TechCrunch",  techcrunch.fetch,        {}),
+        ("ArXiv",       arxiv_ai.fetch,          {}),
+        ("36氪",        kr36.fetch,              {}),
+        ("微信公众号",  wechat_rss.fetch,        {}),
+        ("A股AI动态",   astock_ai.fetch,         {}),
+    ]
+
+    for source_name, fetch_fn, kwargs in sources:
         try:
             results = fetch_fn(**kwargs)
             raw_signals.extend(results)
@@ -73,7 +79,7 @@ def main():
     print(f"  去重后: {len(deduped)} 条")
 
     # ── 步骤 3：LLM 评分 ──────────────────────────
-    print(f"\n[3/5] LLM 评分（共 {len(deduped)} 条，预计耗时 {len(deduped) * 2 // 60 + 1} 分钟）...")
+    print(f"\n[3/5] LLM 评分（共 {len(deduped)} 条）...")
     from scraper.scorer import score_signals
     scored_signals = score_signals(deduped, api_key)
 
@@ -86,9 +92,9 @@ def main():
     scored_signals.sort(key=lambda x: x.get("score_final", 0), reverse=True)
 
     # ── 步骤 5：赛道聚合 ──────────────────────────
-    print("\n[5/5] 赛道聚合...")
+    print("\n[5/5] 赛道聚合（含 LLM 摘要生成）...")
     from scraper.aggregator import aggregate_tracks
-    tracks = aggregate_tracks(scored_signals)
+    tracks = aggregate_tracks(scored_signals, api_key=api_key)
 
     # ── 写出 JSON ─────────────────────────────────
     generated_at = datetime.now(timezone.utc).isoformat()
